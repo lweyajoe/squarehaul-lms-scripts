@@ -1,0 +1,542 @@
+# Webalizer V2.23-08 Incremental Data - 10/18/2024 21:38:50
+2024 10 18 21 38 50
+449 390 89 20 9 32 580502152 114 70 0
+13 1 119 2 18
+0 0 0 0 0 0
+5 4 88977 3 5 3
+5 3 14931 2 3 2
+9 8 201146 3 8 3
+68 65 123601335 8 10 6
+9 7 173349 5 8 6
+10 9 205890 5 10 8
+10 9 252238 2 10 4
+167 161 242008145 24 19 14
+25 24 53421269 6 2 2
+16 8 40282 7 10 7
+6 4 89092 3 6 3
+4 2 10128 1 2 1
+1 1 4803 1 1 1
+18 14 54840 1 6 1
+48 43 106819381 7 7 5
+34 28 53512916 8 7 4
+14 0 3430 13 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+10 1 6941 2
+21 17 61533 7
+24 22 53414900 4
+7 5 70661 5
+21 19 53400507 1
+6 6 144847 6
+2 2 5799 1
+6 6 153224 5
+5 5 87955 3
+5 4 112186 5
+40 36 10509927 17
+5 3 84610 4
+27 24 16717199 5
+10 6 76034 8
+122 121 226904139 10
+35 34 56014079 4
+44 42 109106536 4
+0 0 0 0
+4 2 56576 3
+5 1 28885 2
+5 2 33542 2
+17 8 40757 8
+2 2 32815 2
+26 22 53438500 6
+1
+0
+0
+390
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+8
+50
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/homepage-img/service-1.jpg
+0 17 0 34615246 0 0
+/homepage-lib/easing/easing.min.js
+0 24 0 19836 0 0
+/homepage-img/carousel-2.jpg
+0 17 0 12835271 0 0
+/homepage-lib/wow/wow.min.js
+0 20 0 62200 0 0
+/homepage-img/service-4.jpg
+0 12 0 142789218 0 0
+/homepage-img/service-2.jpg
+0 13 0 149157370 0 0
+/homepage-lib/animate/animate.min.css
+0 16 0 51780 0 0
+/contact-submit.php
+0 1 0 0 0 0
+/homepage-lib/owlcarousel/owl.carousel.min.js
+0 18 0 237319 0 0
+/homepage-css/style.css
+0 14 0 35164 0 0
+/homepage-lib/waypoints/waypoints.min.js
+0 22 0 68096 0 0
+/homepage-img/service-3.jpg
+0 13 0 26026594 0 0
+/homepage-img/carousel-1.jpg
+0 14 0 77413348 0 0
+/homepage-img/about.jpg
+0 14 0 134498732 0 0
+/
+0 99 0 1519751 70 16
+/homepage-lib/counterup/counterup.min.js
+0 18 0 19038 0 0
+/homepage-lib/owlcarousel/assets/owl.carousel.min.css
+0 16 0 15876 0 0
+/homepage-js/main.js
+0 16 0 12836 0 0
+/homepage-css/bootstrap.min.css
+0 15 0 484395 0 0
+/homepage-img/bg.png
+0 11 0 626164 0 0
+# End Of Table - urls
+# -sites- (monthly)
+178.254.38.45
+0 1 1 4803 1 1728618669
+/
+51.68.48.117
+0 2 2 56022 1 1728042654
+/
+104.152.52.55
+0 1 1 28012 1 1728254285
+/
+167.99.82.130
+0 4 2 10128 1 1728653230
+/
+54.160.40.167
+0 20 19 53400392 1 1728604385
+/
+42.236.17.82
+0 1 1 4803 1 1728883428
+/
+42.236.17.102
+0 1 1 4803 1 1728305546
+/
+205.169.39.24
+0 1 1 3098 0 0
+-
+198.235.24.209
+0 1 0 146 1 1729084460
+/
+199.244.88.231
+0 1 1 4803 1 1728609377
+/
+178.128.103.14
+0 2 1 5064 1 1728744444
+-
+205.169.39.115
+0 1 1 801421 0 0
+-
+40.77.167.65
+0 1 0 245 0 0
+-
+205.169.39.7
+0 1 1 829 0 0
+-
+205.169.39.67
+0 2 2 1658 0 0
+-
+42.236.10.69
+0 1 1 3240 0 0
+-
+34.135.211.21
+0 18 14 54840 1 1728956457
+-
+8.41.221.63
+0 3 2 32925 1 1729136509
+/
+165.227.80.182
+0 4 2 10128 1 1728680682
+/
+52.167.144.197
+0 1 0 245 0 0
+-
+198.235.24.90
+0 1 0 146 1 1729075344
+/
+40.77.167.241
+0 1 0 245 0 0
+-
+149.22.80.246
+0 20 19 53400246 1 1729182035
+/
+164.92.70.206
+0 4 2 10128 1 1728681155
+/
+34.118.83.8
+0 19 19 53400131 1 1728482944
+/
+42.236.10.70
+0 2 2 2122 0 0
+-
+157.173.122.176
+0 1 1 4803 1 1728137658
+/
+42.236.10.120
+0 1 1 3240 0 0
+-
+54.160.38.107
+0 21 19 53400507 1 1729054635
+/
+205.169.39.16
+0 2 2 221476 0 0
+-
+198.235.24.126
+0 1 0 146 1 1728673969
+/
+42.236.12.210
+0 1 1 4803 1 1728481314
+/
+205.169.39.179
+0 1 1 1169887 0 0
+-
+205.210.31.82
+0 1 0 146 1 1727861673
+/
+205.169.39.108
+0 2 2 6226 0 0
+-
+207.46.13.153
+0 1 0 245 0 0
+-
+160.119.248.136
+0 38 38 1064336 17 1728759322
+/
+143.198.35.250
+0 4 2 10128 1 1728507929
+/
+178.254.29.124
+0 1 1 4803 1 1729118634
+/
+205.169.39.128
+0 2 2 6196 0 0
+-
+42.236.17.6
+0 1 1 4803 1 1728454022
+/
+157.55.39.55
+0 1 0 245 0 0
+-
+147.182.157.30
+0 4 2 10128 1 1729169567
+/
+34.237.145.247
+0 20 19 53400392 1 1728141339
+/
+34.72.176.129
+0 18 18 50945917 1 1728485305
+/
+42.236.10.121
+0 1 1 996 0 0
+-
+205.210.31.219
+0 1 0 146 1 1728605515
+/
+42.236.10.104
+0 1 1 32300 0 0
+-
+198.235.24.65
+0 1 0 146 1 1728395093
+/
+44.227.127.2
+0 22 21 53409852 1 1729096296
+/
+27.115.124.68
+0 2 2 14017 0 0
+-
+52.167.144.194
+0 1 0 245 0 0
+-
+206.217.206.61
+0 2 1 5064 1 1728038453
+/
+157.55.39.49
+0 1 0 245 0 0
+-
+205.169.39.43
+0 18 18 10122092 1 1728468721
+/
+64.227.73.221
+0 4 2 10128 1 1727952277
+/
+52.167.144.189
+0 1 0 245 0 0
+-
+40.77.167.9
+0 1 0 245 0 0
+-
+42.179.216.45
+0 1 1 4803 1 1728527440
+/
+138.246.253.24
+0 2 0 630 0 0
+-
+52.167.144.66
+0 1 0 245 0 0
+-
+42.236.10.110
+0 1 1 829 0 0
+-
+41.90.34.81
+0 22 21 53409852 1 1728096550
+/
+205.169.39.126
+0 24 24 8097889 1 1728485332
+/
+207.46.13.229
+0 1 0 245 0 0
+-
+40.77.167.55
+0 1 1 0 0 0
+-
+40.77.167.47
+0 1 0 245 1 1728255821
+/
+34.122.147.229
+0 27 27 69212526 1 1728482888
+/
+54.216.53.178
+0 1 1 27991 1 1728313576
+/
+42.236.17.31
+0 1 1 4803 1 1728309298
+/
+205.169.39.21
+0 15 15 4613681 1 1728485999
+/
+8.41.221.49
+0 3 2 32933 1 1729136319
+/
+105.160.118.32
+0 19 19 16697220 1 1728129618
+/
+167.94.138.40
+0 3 1 5325 1 1728432777
+/
+42.236.12.229
+0 1 0 261 1 1728475188
+/
+52.167.144.166
+0 1 0 245 1 1728324995
+/
+52.167.144.179
+0 1 0 245 0 0
+-
+54.214.215.45
+0 1 1 4803 1 1727910070
+/
+207.46.13.230
+0 2 0 490 0 0
+-
+104.166.80.53
+0 1 1 4803 1 1727986261
+/
+207.46.13.127
+0 1 1 4803 1 1728130597
+/
+157.55.39.54
+0 1 0 245 0 0
+-
+42.236.10.91
+0 1 1 996 0 0
+-
+104.197.69.115
+0 11 11 31693842 0 0
+-
+64.226.117.154
+0 4 2 10128 1 1728855131
+/
+192.104.34.34
+0 2 1 28012 1 1728776690
+/
+199.244.88.228
+0 1 1 4803 1 1728258013
+/
+157.55.39.202
+0 1 0 245 0 0
+-
+34.123.170.104
+0 6 6 11544243 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+40.77.167.65
+0 1 0 245 0 0
+-
+52.167.144.197
+0 1 0 245 0 0
+-
+40.77.167.241
+0 1 0 245 0 0
+-
+207.46.13.153
+0 1 0 245 0 0
+-
+157.55.39.55
+0 1 0 245 0 0
+-
+52.167.144.194
+0 1 0 245 0 0
+-
+157.55.39.49
+0 1 0 245 0 0
+-
+52.167.144.189
+0 1 0 245 0 0
+-
+40.77.167.9
+0 1 0 245 0 0
+-
+52.167.144.179
+0 1 0 245 0 0
+-
+207.46.13.230
+0 2 0 490 0 0
+-
+157.55.39.54
+0 1 0 245 0 0
+-
+157.55.39.202
+0 1 0 245 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://gwedhah.co.ke/homepage-css/style.css
+0 4
+- (Direct Request)
+0 174
+http://gwedhah.co.ke/homepage-css/style.css
+0 6
+https://www.gwedhah.co.ke/
+0 24
+http://gwedhah.co.ke/
+0 159
+http://www.gwedhah.co.ke/
+0 6
+https://gwedhah.co.ke/
+0 74
+http://gwedhah.co.ke/index.html
+0 1
+https://www.gwedhah.co.ke/homepage-css/style.css
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 2
+Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15
+0 19
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+0 20
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+0 18
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.99 Safari/537.36
+0 40
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+0 61
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 28
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/124.0.0.0 Safari/537.36
+0 20
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.19
+0 20
+Go-http-client/2.0
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/120.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+0 2
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 6
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+0 10
+python-requests/2.31.0
+0 2
+curl/7.61.1
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/92.0.4515.159 Safari/537.36
+0 24
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.
+0 3
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36; 360Spider
+0 6
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.132 Safari/537.36
+0 38
+Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 21
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 35
+Mozilla/5.0 Firefox/33.0
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,248 @@
+# Webalizer V2.23-08 Incremental Data - 10/15/2024 12:38:23
+2024 10 15 12 38 23
+307 296 18 17 6 14 5137372 227 19 0
+2 1 116 1 15
+1 0 146 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 4 73198 4 2 2
+125 120 915192 1 110 2
+39 39 2138983 3 14 3
+0 0 0 0 0 0
+120 119 1779668 3 89 5
+4 4 57734 1 2 1
+4 4 57734 1 2 1
+0 0 0 0 0 0
+4 4 57734 1 2 1
+2 1 28280 2 1 1
+4 1 28703 2 4 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+3 1 28557 3
+0 0 0 0
+2 1 28280 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+4 4 57734 2
+4 4 73198 2
+150 150 1810726 119
+15 15 70280 15
+6 0 146 6
+0 0 0 0
+41 40 2167263 15
+4 4 57734 2
+43 43 835745 27
+24 24 5113 24
+10 10 2450 10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 146 1
+0 0 0 0
+5
+0
+0
+296
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/rainloop/v/1.17.0/static/js/min/app.min.js
+0 6 0 990174 0 0
+/rainloop/v/1.17.0/static/js/min/libs.min.js
+0 7 0 1427333 0 0
+/rainloop/v/1.17.0/static/js/min/admin.min.js
+0 1 0 87041 0 0
+/rainloop/v/1.17.0/static/js/min/polyfills.min.js
+0 8 0 105177 0 0
+/rainloop/v/1.17.0/static/manifest.json
+0 3 0 687 0 0
+/rainloop/v/1.17.0/themes/Default/images/background.jpg
+0 6 0 29928 0 0
+/rainloop/v/1.17.0/static/css/fonts/rainloop.woff
+0 5 0 70640 0 0
+/rainloop/v/1.17.0/static/ckeditor/ckeditor.js
+0 5 0 896857 0 0
+/rainloop/v/1.17.0/static/ckeditor/plugins/signature/plugin.js
+0 3 0 3276 0 0
+/rainloop/v/1.17.0/static/ckeditor/plugins/plain/plugin.js
+0 3 0 6072 0 0
+/rainloop/v/1.17.0/static/apple-touch-icon.png
+0 8 0 6656 0 0
+/rainloop/v/1.17.0/static/js/min/boot.min.js
+0 8 0 251057 0 0
+/
+0 218 0 895152 18 5
+/rainloop/v/1.17.0/static/css/app.min.css
+0 6 0 316707 0 0
+/rainloop/v/1.17.0/static/android-icon.png
+0 3 0 16566 0 0
+/rainloop/v/1.17.0/static/ckeditor/skins/moono-lisa/editor.css
+0 3 0 18585 0 0
+/rainloop/v/1.17.0/static/ckeditor/lang/en.js
+0 3 0 14160 0 0
+# End Of Table - urls
+# -sites- (monthly)
+206.189.49.185
+0 4 4 57734 1 1728660628
+/
+205.169.39.205
+0 19 19 1136135 1 1728310745
+/
+52.167.144.210
+0 1 1 28035 1 1728446229
+/
+34.135.211.21
+0 3 1 28557 1 1728956457
+-
+54.187.130.75
+0 1 1 28035 1 1728121549
+/
+198.235.24.85
+0 1 0 146 1 1727821693
+-
+34.221.201.163
+0 1 1 624 1 1728121553
+/
+205.210.31.202
+0 1 0 146 1 1728995903
+/
+52.167.144.232
+0 1 1 28035 1 1728916692
+/
+137.184.216.255
+0 4 4 57734 1 1728835928
+/
+138.197.33.164
+0 4 4 57734 1 1728547946
+/
+35.85.63.161
+0 1 1 31387 0 0
+-
+41.90.34.81
+0 243 238 2666580 6 1728499355
+/
+40.77.167.108
+0 1 0 245 0 0
+-
+52.13.109.94
+0 1 1 13152 0 0
+-
+205.169.39.21
+0 8 8 274539 1 1728310226
+/
+52.167.144.56
+0 1 0 245 0 0
+-
+104.197.69.115
+0 12 12 728309 1 1728310490
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+34.135.211.21
+0 3 1 28557 1 1728956457
+-
+205.210.31.202
+0 1 0 146 1 1728995903
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 26
+https://mail.gwedhah.co.ke/
+0 238
+https://mail.gwedhah.co.ke/rainloop/v/1.17.0/static/css/app.min.css
+0 3
+http://mail.gwedhah.co.ke/
+0 36
+https://portal.gwedhah.co.ke/
+0 2
+http://mail.gwedhah.co.ke/rainloop/v/1.17.0/static/css/app.min.css
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+0 7
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+0 12
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0 (Macintosh; PPC Mac OS X 10.8; rv:49.0) Gecko/20100101 Firefox/49.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+0 198
+Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 12
+Opera/12.0(Windows NT 5.1;U;en)Presto/22.9.168 Version/12.00
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.19
+0 4
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 2
+Mozilla/5.0 (X11; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.132 Safari/537.36
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 45
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 8
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

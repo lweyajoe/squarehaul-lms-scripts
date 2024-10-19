@@ -1,0 +1,507 @@
+[30-Sep-2024 10:29:08 Europe/Berlin] PHP Warning:  Undefined array key "loan_id" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 8
+[30-Sep-2024 10:29:08 Europe/Berlin] PHP Warning:  Undefined array key "phone_number" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 9
+[30-Sep-2024 10:29:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getNextPaymentAmount() in C:\xampp\htdocs\working-copy-lms\api\stk_push.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 12
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  include_once(functions-tena.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 4
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'functions-tena.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 4
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  Undefined array key "loan_id" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 9
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  Undefined array key "phone_number" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 10
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getNextPaymentAmount() in C:\xampp\htdocs\working-copy-lms\api\stk_push.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 13
+[30-Sep-2024 10:34:10 Europe/Berlin] PHP Warning:  Undefined array key "loan_id" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 9
+[30-Sep-2024 10:34:10 Europe/Berlin] PHP Warning:  Undefined array key "phone_number" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 10
+[30-Sep-2024 10:39:05 Europe/Berlin] PHP Warning:  Undefined array key "access_token" in C:\xampp\htdocs\working-copy-lms\api\MpesaAPI.php on line 18
+[30-Sep-2024 10:39:06 Europe/Berlin] PHP Warning:  Undefined array key "ResponseCode" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 24
+[30-Sep-2024 10:39:29 Europe/Berlin] PHP Warning:  Undefined array key "access_token" in C:\xampp\htdocs\working-copy-lms\api\MpesaAPI.php on line 18
+[30-Sep-2024 10:39:31 Europe/Berlin] PHP Warning:  Undefined array key "ResponseCode" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 24
+[30-Sep-2024 10:45:31 Europe/Berlin] Access Token Response: {
+            "access_token": "JjSUSSCpBdQ0qXglXk6nG4ixqv1y",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 10:45:32 Europe/Berlin] PHP Warning:  Undefined array key "ResponseCode" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 24
+[30-Sep-2024 10:51:41 Europe/Berlin] Access Token Response: {
+            "access_token": "ylhNkC6XY7h8SqAekbOjRrLp14aB",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 10:51:42 Europe/Berlin] STK Push Response: {"requestId":"dad6-4c34-8787-c8cb963a496d120090","errorCode":"404.001.01","errorMessage":"Resource not found"}
+[30-Sep-2024 10:58:50 Europe/Berlin] Access Token Response: {
+            "access_token": "AF86s0ARfDra7a8jaEKHr8UiFAFD",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 10:58:50 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDEwNTg1MA==","Timestamp":"20240930105850","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 10:58:51 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2755091","errorCode":"404.001.01","errorMessage":"Resource not found"}
+[30-Sep-2024 11:14:47 Europe/Berlin] Access Token Response: {
+            "access_token": "6KhEkU9jD6xYJZG70VZKd4lm1VYF",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 11:14:47 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDExMTQ0Nw==","Timestamp":"20240930111447","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 11:14:48 Europe/Berlin] STK Push Response: {"requestId":"94fc-460e-a970-797968bf6a85119818","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 11:23:33 Europe/Berlin] Access Token Response: {
+            "access_token": "s6hYhuoTcLfUCPMWsCnU2mg3Ya05",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 11:23:33 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDExMjMzMw==","Timestamp":"20240930112333","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 11:23:34 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2755480","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 11:31:14 Europe/Berlin] Access Token Response: {
+            "access_token": "GGO4z3ulZ0LjrSMkt0mObyAlbSdJ",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 11:31:14 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDExMzExNA==","Timestamp":"20240930113114","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 11:31:15 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2755587","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 13:10:22 Europe/Berlin] Access Token Response: 
+[30-Sep-2024 13:10:22 Europe/Berlin] Failed to obtain access token: null
+[30-Sep-2024 13:10:22 Europe/Berlin] STK Push Response: {"ResponseCode":"1","Message":"Invalid Access Token"}
+[30-Sep-2024 13:46:18 Europe/Berlin] Access Token Response: {
+            "access_token": "aZ7lAERxaDjIeXaknyedfHoGX2ek",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 13:46:18 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDEzNDYxOA==","Timestamp":"20240930134618","TransactionType":"CustomerPayBillOnline","Amount":"12284.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 13:46:19 Europe/Berlin] STK Push Response: {"requestId":"94fc-460e-a970-797968bf6a85123272","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 13:46:45 Europe/Berlin] Access Token Response: {
+            "access_token": "Br7HA4Qi9lF97oEqOSL3RJCM2uA5",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 13:46:45 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDEzNDY0NQ==","Timestamp":"20240930134645","TransactionType":"CustomerPayBillOnline","Amount":"12284.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 13:46:46 Europe/Berlin] STK Push Response: {"requestId":"8ed5-4489-a67f-881890b925f2759965","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 14:03:46 Europe/Berlin] Access Token Response: {
+            "access_token": "sa6LoTk2PK3Bqz8K8Uiqo6l0PRSX",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:03:46 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MDM0Ng==","Timestamp":"20240930140346","TransactionType":"CustomerPayBillOnline","Amount":"12284.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:03:47 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2757833","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 14:16:17 Europe/Berlin] Access Token Response: {
+            "access_token": "CNGdGI31qd9GkFe0wKs7EE7wZGVe",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:16:17 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MTYxNw==","Timestamp":"20240930141617","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:16:18 Europe/Berlin] STK Push Response: {"requestId":"8ed5-4489-a67f-881890b925f2760469","errorCode":"500.001.1001","errorMessage":"Wrong credentials"}
+[30-Sep-2024 14:25:48 Europe/Berlin] Access Token Response: {
+            "access_token": "5gRkpBSw5IVJa7DPncgPOpeDusXi",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:25:48 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MjU0OA==","Timestamp":"20240930142548","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:25:49 Europe/Berlin] STK Push Response: {"requestId":"dad6-4c34-8787-c8cb963a496d124960","errorCode":"500.001.1001","errorMessage":"Wrong credentials"}
+[30-Sep-2024 14:26:59 Europe/Berlin] Access Token Response: {
+            "access_token": "NpXG35ekMoaPmAT6MfvHF5jgL8YS",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:26:59 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MjY1OQ==","Timestamp":"20240930142659","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:27:00 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2758183","errorCode":"500.001.1001","errorMessage":"Wrong credentials"}
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_log.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 11
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_errors.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 40
+[30-Sep-2024 15:17:22 Europe/Berlin] Access Token Response: {
+            "access_token": "FSiAPBonS8C2lgkZnK5hrZjeB9BE",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 15:17:22 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTUxNzIy","Timestamp":"20240930151722","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 15:17:23 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d126141","CheckoutRequestID":"ws_CO_30092024161753990708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 15:20:40 Europe/Berlin] Access Token Response: {
+            "access_token": "LyAytwcgcAnZCJKY0Af5ZoYmCRbU",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 15:20:40 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTUyMDQw","Timestamp":"20240930152040","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 15:20:42 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d126247","CheckoutRequestID":"ws_CO_30092024162113056708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 15:43:15 Europe/Berlin] Access Token Response: {
+            "access_token": "MFiyrc2UVMBA4KkM4fAmN6zONphd",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 15:43:15 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTU0MzE1","Timestamp":"20240930154315","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 15:43:17 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d126708","CheckoutRequestID":"ws_CO_30092024164347935708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_log.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 11
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_errors.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 40
+[30-Sep-2024 16:50:24 Europe/Berlin] Access Token Response: {
+            "access_token": "TDp6H7lnAS3ZMIGUt6MthaedsZ0n",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 16:50:24 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTY1MDI0","Timestamp":"20240930165024","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 16:50:27 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760161","CheckoutRequestID":"ws_CO_30092024175034863708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:48 Europe/Berlin] Access Token Response: {
+            "access_token": "X5uOJ4tpVZHLoH4XFF2I0NM19u4N",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 16:50:48 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTY1MDQ4","Timestamp":"20240930165048","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 16:50:49 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2762525","CheckoutRequestID":"ws_CO_30092024175120832708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:15:57 Europe/Berlin] Access Token Response: {
+            "access_token": "5StDgcYJgHaSq7O8M82JVpaFR0JM",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:15:57 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcxNTU3","Timestamp":"20240930171557","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:15:58 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d128907","CheckoutRequestID":"ws_CO_30092024181629546708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:53 Europe/Berlin] Access Token Response: {
+            "access_token": "F6adEZG5FkymWM8yFfHVekUWobKP",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:16:53 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcxNjUz","Timestamp":"20240930171653","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:16:55 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d128924","CheckoutRequestID":"ws_CO_30092024181703455708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:18:48 Europe/Berlin] Access Token Response: {
+            "access_token": "8xSriaQ1YIwyErD8ecLkpF3E51n7",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:18:48 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcxODQ4","Timestamp":"20240930171848","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:18:50 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d128952","CheckoutRequestID":"ws_CO_30092024181858802717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:20:42 Europe/Berlin] Access Token Response: {
+            "access_token": "6bNUJ0EMAibYGLRChJGA0mlzYquq",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:20:42 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcyMDQy","Timestamp":"20240930172042","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:20:43 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2762930","CheckoutRequestID":"ws_CO_30092024182051901717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:21:35 Europe/Berlin] Access Token Response: {
+            "access_token": "GXHArvd4b27lJnLCu40dIPIdcpGT",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:21:35 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcyMTM1","Timestamp":"20240930172135","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:21:37 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2762934","CheckoutRequestID":"ws_CO_30092024182145395717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:29:31 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:29:33 Europe/Berlin] Access Token Response: {
+            "access_token": "Icy6ZcWbj3zSsrxy8PnnGhanom06",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:29:33 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcyOTMz","Timestamp":"20240930172933","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:29:34 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d129201","CheckoutRequestID":"ws_CO_30092024182943148717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:40:42 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:40:42 Europe/Berlin] Access Token Response: {
+            "access_token": "vcENU7hAhVxQN9muCG6TlxY3aHYt",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:40:42 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0MDQy","Timestamp":"20240930174042","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:40:44 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760774","CheckoutRequestID":"ws_CO_30092024184115237717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:46:00 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:46:01 Europe/Berlin] Access Token Response: {
+            "access_token": "WSjU9AXrQWw8GICn8fx5VNH5uLN3",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:46:01 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0NjAx","Timestamp":"20240930174601","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:46:05 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d129572","CheckoutRequestID":"ws_CO_30092024184634117717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:46:46 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:46:47 Europe/Berlin] Access Token Response: {
+            "access_token": "OX4iXbGxoQ4HOGPswmi0L70Pg3Kk",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:46:47 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0NjQ3","Timestamp":"20240930174647","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:46:50 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760833","CheckoutRequestID":"ws_CO_30092024184720300717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:47:31 Europe/Berlin] Converted Amount: 12284
+[30-Sep-2024 17:47:32 Europe/Berlin] Access Token Response: {
+            "access_token": "mG6AYUTZmdKbD5jQFxG8YM6r9xPv",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:47:32 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0NzMy","Timestamp":"20240930174732","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:47:33 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2763232","CheckoutRequestID":"ws_CO_30092024184804303717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 18:00:31 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 18:00:32 Europe/Berlin] Access Token Response: {
+            "access_token": "CczmRbg0kDy8HhkmNys2b7ZA2jjG",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 18:00:32 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTgwMDMy","Timestamp":"20240930180032","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 18:00:39 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760986","CheckoutRequestID":"ws_CO_30092024190105312717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:41 Europe/Berlin] Converted Amount: 12284
+[30-Sep-2024 18:01:42 Europe/Berlin] Access Token Response: {
+            "access_token": "1sRtYjQu0ZqZBEYn8jFeE8rZB2rA",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 18:01:42 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTgwMTQy","Timestamp":"20240930180142","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 18:01:43 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2763410","CheckoutRequestID":"ws_CO_30092024190214489717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[02-Oct-2024 12:16:13 Europe/Berlin] Converted Amount: 50067
+[02-Oct-2024 12:16:14 Europe/Berlin] Access Token Response: {
+            "access_token": "x9lLfUA16znDC5WiFBPiKYGigwEE",
+            "expires_in": "3599"
+        }
+        
+[02-Oct-2024 12:16:14 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDAyMTIxNjE0","Timestamp":"20241002121614","TransactionType":"CustomerPayBillOnline","Amount":50067,"PartyA":254712752616,"PartyB":"174379","PhoneNumber":254712752616,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[02-Oct-2024 12:16:16 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2794901","CheckoutRequestID":"ws_CO_02102024131630239712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[06-Oct-2024 21:07:19 Africa/Johannesburg] Converted Amount: 12000
+[06-Oct-2024 21:07:19 Africa/Johannesburg] Access Token Response: {
+            "access_token": "QsMzN614frlZhljY6kL3COAAFRmV",
+            "expires_in": "3599"
+        }
+        
+[06-Oct-2024 21:07:19 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA2MjEwNzE5","Timestamp":"20241006210719","TransactionType":"CustomerPayBillOnline","Amount":12000,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/omabracredit.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[06-Oct-2024 21:07:20 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2911684","CheckoutRequestID":"ws_CO_06102024220851336717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[07-Oct-2024 13:54:32 Africa/Johannesburg] Converted Amount: 7080
+[07-Oct-2024 13:54:32 Africa/Johannesburg] Access Token Response: {
+            "access_token": "rm9LyJE5zj6Ww4D2AwEoBx2wv9ET",
+            "expires_in": "3599"
+        }
+        
+[07-Oct-2024 13:54:32 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA3MTM1NDMy","Timestamp":"20241007135432","TransactionType":"CustomerPayBillOnline","Amount":7080,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/omabracredit.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000002","TransactionDesc":"Loan Payment"}
+[07-Oct-2024 13:54:33 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2940288","CheckoutRequestID":"ws_CO_07102024145606905717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[08-Oct-2024 20:14:19 Africa/Johannesburg] Converted Amount: 15
+[08-Oct-2024 20:14:20 Africa/Johannesburg] Access Token Response: {
+            "access_token": "Aqmx8IvAPkHAX2ziVpNbbMkKtoYj",
+            "expires_in": "3599"
+        }
+        
+[08-Oct-2024 20:14:20 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA4MjAxNDIw","Timestamp":"20241008201420","TransactionType":"CustomerPayBillOnline","Amount":15,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/omabracredit.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000011","TransactionDesc":"Loan Payment"}
+[08-Oct-2024 20:14:20 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2976308","CheckoutRequestID":"ws_CO_08102024211556663717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[08-Oct-2024 20:34:40 Africa/Johannesburg] Converted Amount: 15
+[08-Oct-2024 20:34:41 Africa/Johannesburg] Access Token Response: {
+            "access_token": "T5T7P6ebYuJ8m6KyE5CgNnOZ5GpG",
+            "expires_in": "3599"
+        }
+        
+[08-Oct-2024 20:34:41 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA4MjAzNDQx","Timestamp":"20241008203441","TransactionType":"CustomerPayBillOnline","Amount":15,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000011","TransactionDesc":"Loan Payment"}
+[08-Oct-2024 20:34:41 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2976803","CheckoutRequestID":"ws_CO_08102024213617828717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[08-Oct-2024 21:12:31 Africa/Johannesburg] Converted Amount: 2
+[08-Oct-2024 21:12:32 Africa/Johannesburg] Access Token Response: {
+            "access_token": "G3fiJwTZAYD0nIo7mCqhJyMAbGIL",
+            "expires_in": "3599"
+        }
+        
+[08-Oct-2024 21:12:32 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA4MjExMjMy","Timestamp":"20241008211232","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[08-Oct-2024 21:12:32 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2977491","CheckoutRequestID":"ws_CO_08102024221408587717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 00:05:32 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 00:05:33 Africa/Johannesburg] Access Token Response: {
+            "access_token": "aVcDJO03znitGm7KOQg1cy7ItvlF",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 00:05:33 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDAwNTMz","Timestamp":"20241009000533","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 00:05:34 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 00:05:53 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:05:53 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:05:53 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:05:54 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:14:18 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 00:14:19 Africa/Johannesburg] Access Token Response: {
+            "access_token": "AAfyqPwof6kvIKpzSVIqssILeoNf",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 00:14:19 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDAxNDE5","Timestamp":"20241009001419","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 00:14:20 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 00:14:33 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 00:14:34 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 00:14:34 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 00:14:34 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 02:07:13 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:07:13 Africa/Johannesburg] Access Token Response: {
+            "access_token": "vmCwYmaBZ0G7SskPUuz332kIWqpc",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:07:13 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIwNzEz","Timestamp":"20241009020713","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:07:14 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379130","CheckoutRequestID":"ws_CO_09102024030917313717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Undefined array key "CheckoutMetadata" in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Trying to access array offset on value of type null in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Trying to access array offset on value of type null in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Trying to access array offset on value of type null in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:17:29 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:17:29 Africa/Johannesburg] Access Token Response: {
+            "access_token": "TEvNrfUHq6JXNSxVGexBw1pmuNBk",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:17:29 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIxNzI5","Timestamp":"20241009021729","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:17:30 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2984346","CheckoutRequestID":"ws_CO_09102024031933738717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 02:26:31 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:26:31 Africa/Johannesburg] Access Token Response: {
+            "access_token": "OHjG0ShDNzTYexanuA4GzC5LMULM",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:26:31 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIyNjMx","Timestamp":"20241009022631","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:26:32 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 02:26:47 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:26:47 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:26:48 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:26:48 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:31:51 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:31:52 Africa/Johannesburg] Access Token Response: {
+            "access_token": "wvAQhqAr2VWdDld2Gqvb7iK51BZf",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:31:52 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIzMTUy","Timestamp":"20241009023152","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:31:52 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379852","CheckoutRequestID":"ws_CO_09102024033356088717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}

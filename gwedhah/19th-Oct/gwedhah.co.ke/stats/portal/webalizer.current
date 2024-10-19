@@ -1,0 +1,1118 @@
+# Webalizer V2.23-08 Incremental Data - 10/18/2024 23:47:08
+2024 10 18 23 47 8
+4712 2490 151 141 87 28 152882451 346 104 0
+13 1 267 1 18
+41 16 31640 11 13 7
+85 31 1147219 5 8 4
+100 66 2961112 13 24 12
+26 19 1377438 4 5 4
+359 115 8850507 13 7 6
+811 351 11472399 19 79 6
+770 489 35684653 12 9 9
+1129 629 43732347 16 35 10
+725 356 14139285 21 93 10
+334 187 8438507 3 31 5
+82 62 6003839 7 11 7
+81 61 6263039 9 2 2
+32 24 3395867 9 5 5
+17 12 2191185 2 2 2
+27 12 1088266 6 10 4
+4 2 3060 3 2 2
+70 56 6095764 14 5 5
+19 2 6324 13 5 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+22 6 14367 2
+27 12 1088326 9
+128 85 4959428 10
+18 8 12126 10
+275 164 12012561 4
+41 20 1087908 2
+12 11 189137 1
+133 33 256061 1
+506 154 7323607 14
+320 152 7329993 33
+550 270 9465021 77
+324 174 7074157 38
+374 175 9475534 15
+121 86 9691473 3
+314 213 14749188 4
+402 294 22036668 3
+301 152 8390831 66
+260 188 15170229 5
+133 77 6743842 12
+120 55 1072963 18
+125 70 5802344 1
+173 73 6627031 6
+21 15 2296073 6
+12 3 13583 6
+2
+0
+0
+2490
+0
+0
+0
+0
+0
+0
+0
+0
+237
+0
+535
+0
+0
+0
+0
+0
+20
+1388
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+40
+0
+0
+0
+0
+0
+# -urls- 
+/accounts/webzash/css/jquery-ui.css
+0 7 0 31645 0 0
+/register.php
+0 3 0 2478 0 0
+/vendors/images/apple-touch-icon.png
+0 1 0 9402 0 0
+/accounts/webzash/js/bootstrap.min.js
+0 7 0 38395 0 0
+/reset-password.php
+0 8 0 7227 0 0
+/accounts/wzaccounts/add
+0 1 0 2366 0 0
+/accounts/webzash/js/mousetrap.min.js
+0 6 0 9750 0 0
+/src/plugins/highcharts-6.0.7/code/highcharts.js
+0 33 0 1412292 0 0
+/vendors/fonts/bootstrap-icons.woff2
+0 58 0 4914240 0 0
+/src/plugins/datatables/js/buttons.html5.min.js
+0 33 0 130608 0 0
+/edit-loan-application.php
+0 12 0 53522 0 0
+/accrued-interest.php
+0 1 0 3537 0 0
+/accounts/wzsettings/edit
+0 2 0 4552 0 0
+/client_dashboard.php
+0 8 0 50892 0 0
+/login.php
+0 157 0 229004 0 0
+/vendors/scripts/core.js
+0 68 0 33178236 0 0
+/printify.php
+0 18 0 92622 0 0
+/src/styles/style.css
+0 63 0 1017909 0 0
+/src/plugins/datatables/js/jquery.dataTables.min.js
+0 35 0 576181 0 0
+/vendors/styles/core.css
+0 73 0 3347983 0 0
+/src/plugins/jquery-steps/jquery.steps.js
+0 22 0 215168 0 0
+/accounts/webzash/fonts/glyphicons-halflings-regular.woff
+0 5 0 92528 0 0
+/uploads/signed_application_67065092012f2.jpg
+0 1 0 891872 0 0
+/accounts/webzash/js/jquery-1.11.0.ui.js
+0 7 0 555845 0 0
+/accounts/reports/ledgerstatement/ledgerid:11
+0 1 0 4820 0 0
+/src/plugins/jquery-steps/jquery.steps.css
+0 64 0 77084 0 0
+/src/plugins/apexcharts/apexcharts.min.js
+0 6 0 561496 0 0
+/vendors/scripts/dashboard2.js
+0 46 0 31499 0 0
+/accounts/webzash/css/images/ui-bg_glass_85_dfeffc_1x400.png
+0 3 0 942 0 0
+/settings.php
+0 32 0 135422 0 0
+/active-loans.php
+0 13 0 49481 0 0
+/officer-loan-reports.php
+0 24 0 87102 0 0
+/accounts/wzsetups/index
+0 2 0 1366 0 0
+/accounts/reports/profitloss
+0 3 0 10540 0 1
+/src/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js
+0 32 0 288847 0 0
+/accounts/wzaccounts/index
+0 5 0 7993 0 0
+/accounts/webzash/css/bootstrap.min.css
+0 7 0 85810 0 0
+/vendors/images/photo1.jpg
+0 3 0 43662 0 0
+/vendors/styles/icon-font.min.css
+0 73 0 3381316 0 0
+/api/callback.php
+0 5 0 74 0 0
+/uploads/pic2_67052b5a89914.jpg
+0 1 0 677359 0 0
+/my-profile.php
+0 4 0 15418 0 0
+/src/plugins/datatables/js/buttons.flash.min.js
+0 33 0 136062 0 0
+/uploads/client-passport_67064d43613ed.jpg
+0 2 0 1783744 0 0
+/accounts/reports/balancesheet
+0 2 0 6953 1 0
+/accounts/webzash/css/images/ui-bg_inset-hard_100_fcfdfd_1x100.png
+0 3 0 783 0 0
+/vendors/scripts/script.min.js
+0 68 0 133880 0 0
+/edit-my-profile.php
+0 2 0 7865 0 0
+/accounts/wzusers/account
+0 11 0 22205 0 0
+/vendors/fonts/fontawesome-webfont.woff2
+0 59 0 3780840 0 0
+/vendors/fonts/dropways.woff
+0 2 0 1089760 0 0
+/accounts/wzusers/login
+0 38 0 49753 2 4
+/loan-approval.php
+0 48 0 187271 0 0
+/vendors/images/login-page-img.png
+0 29 0 15465823 0 0
+/defaulted-loans.php
+0 4 0 15455 0 0
+/search-national-id.php
+0 28 0 129784 0 0
+/uploads/signed_application_6703b8dd01e40.jpg
+0 3 0 891872 0 0
+/manager_dashboard.php
+0 8 0 31372 0 0
+/vendors/images/favicon-16x16.png
+0 1 0 460 0 0
+/fetch-loan-data.php
+0 16 0 3170 0 0
+/uploads/pic1_670565e61f1af.jpg
+0 1 0 891872 0 0
+/vendors/images/forgot-password.png
+0 5 0 1607030 0 0
+/onboard-manager.php
+0 3 0 13613 0 0
+/accounts/admin/index
+0 13 0 13768 0 0
+/search-collateral.php
+0 8 0 31395 0 0
+/accounts/webzash/css/jquery-ui.theme.css
+0 7 0 15555 0 0
+/vendors/scripts/apexcharts-setting.js
+0 6 0 5496 0 0
+/vendors/scripts/datatable-setting.js
+0 44 0 24414 0 0
+/accounts/webzash/css/images/ui-bg_glass_75_d0e5f5_1x400.png
+0 3 0 930 0 0
+/vendors/scripts/layout-settings.js
+0 68 0 96190 0 0
+/src/plugins/datatables/js/buttons.bootstrap4.min.js
+0 33 0 9828 0 0
+/info.php
+0 1 0 24363 0 0
+/accounts/wzusers/first
+0 2 0 3009 0 0
+/payments-handler.php
+0 55 0 289201 0 0
+/accounts/webzash/css/custom.css
+0 142 0 222514 0 0
+/vendors/fonts/themify.woff
+0 23 0 673296 0 0
+/api/stk_push.php
+0 12 0 816 0 0
+/vendors/images/favicon-32x32.png
+0 3 0 2547 0 0
+/apply-loan.php
+0 40 0 180065 0 0
+/src/plugins/jvectormap/jquery-jvectormap-2.0.3.css
+0 64 0 174384 0 0
+/src/plugins/cropperjs/dist/cropper.css
+0 65 0 72000 0 0
+/src/plugins/datatables/js/pdfmake.min.js
+0 33 0 7986816 0 0
+/pay-now.php
+0 11 0 43305 0 0
+/search-client-profile.php
+0 14 0 54222 0 0
+/admin_dashboard.php
+0 145 0 679860 0 0
+/search-loan-id.php
+0 14 0 53072 0 0
+/search-manager-profile.php
+0 2 0 7750 0 0
+/accounts/reports/trialbalance
+0 3 0 7268 0 1
+/src/plugins/apexcharts/apexcharts.css
+0 64 0 147072 0 0
+/accounts/entries/index
+0 35 0 157481 3 5
+/accounts/wzsetups/install
+0 1 0 1850 0 0
+/accounts/accounts/show
+0 4 0 26836 0 0
+/pay-now-copy.php
+0 1 0 3438 0 0
+/accounts/webzash/css/images/ui-icons_217bc0_256x240.png
+0 3 0 12825 0 0
+/onboard-client.php
+0 25 0 123638 0 0
+/vendors/styles/style.css
+0 73 0 1252802 0 0
+/src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+0 32 0 781949 0 0
+/uploads/guarantor-passport_6705749fd8faf.jpg
+0 1 0 891872 0 0
+/src/plugins/datatables/js/responsive.bootstrap4.min.js
+0 35 0 10676 0 0
+/uploads/pic1_6705754f3883e.jpg
+0 1 0 891872 0 0
+/vendors/scripts/process.js
+0 68 0 38003 0 0
+/vendors/fonts/ionicons.ttf
+0 58 0 9048384 0 0
+/accounts/dashboard/index
+0 13 0 23293 1 2
+/src/plugins/jQuery-Knob-master/jquery.knob.min.js
+0 33 0 68816 0 0
+/src/plugins/datatables/js/dataTables.buttons.min.js
+0 33 0 130734 0 0
+/vendors/fonts/dropways.ttf
+0 74 0 35834207 0 0
+/accounts/webzash/css/images/ui-icons_f9bd01_256x240.png
+0 2 0 8550 0 0
+/my-manager-profile.php
+0 3 0 11114 0 0
+/accounts/webzash/js/select2.min.js
+0 6 0 79580 0 0
+/uploads/guarantor-back_6705749fb72d1.jpg
+0 1 0 677359 0 0
+/vendors/images/person.svg
+0 35 0 21581 0 0
+/src/plugins/datatables/js/dataTables.bootstrap4.min.js
+0 35 0 27302 0 0
+/uploads/signed_application_67052b5aabd68.jpg
+0 1 0 677359 0 0
+/accounts/webzash/js/jquery-1.10.2.js
+0 7 0 164010 0 0
+/accounts/reports/ledgerstatement/ledgerid:22
+0 1 0 3554 0 0
+/rejected-loans.php
+0 7 0 26290 0 0
+/loan-defaults.php
+0 2 0 7028 0 0
+/accounts/wzusers/forgot
+0 2 0 2465 0 0
+/uploads/pic2_67065091d0bd8.jpg
+0 1 0 677359 0 0
+/src/plugins/datatables/js/dataTables.responsive.min.js
+0 35 0 86785 0 0
+/update_company_settings.php
+0 11 0 647 0 0
+/uploads/guarantor-back_67064d431c21b.jpg
+0 1 0 677359 0 0
+/accounts/webzash/css/images/ui-icons_6da8d5_256x240.png
+0 3 0 12828 0 0
+/src/plugins/highcharts-6.0.7/code/highcharts-more.js
+0 33 0 221833 0 0
+/accounts/reports/ledgerstatement/ledgerid:11/print:true
+0 1 0 1085 0 1
+/accounts/reports/ledgerstatement/ledgerid:12
+0 1 0 4819 0 0
+/template.php
+0 2 0 7076 0 0
+/loan-clearance.php
+0 3 0 10570 0 0
+/uploads/signed_application_6705754f85b68.jpg
+0 1 0 891872 0 0
+/accounts/webzash/css/select2.min.css
+0 6 0 8985 0 0
+/forgot-password.php
+0 9 0 12364 0 0
+/mark-notifications-read.php
+0 10 0 480 0 0
+/vendors/images/check-mark.png
+0 2 0 462 0 0
+/src/plugins/datatables/js/vfs_fonts.js
+0 33 0 8498484 0 0
+/accounts/webzash/css/jquery-ui.structure.css
+0 7 0 17750 0 0
+/accounts/
+0 2 0 3470 6 1
+/cleared-loans.php
+0 6 0 22510 0 0
+/src/plugins/datatables/js/buttons.print.min.js
+0 33 0 21384 0 0
+/uploads/pic1_67052b5a653a1.jpg
+0 1 0 891872 0 0
+/vendors/images/briefcase.svg
+0 36 0 16677 0 0
+/accounts/webzash/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png
+0 2 0 614 0 0
+# End Of Table - urls
+# -sites- (monthly)
+40.77.167.17
+0 4 3 4380 1 1728130592
+-
+104.197.92.68
+0 1 0 118 1 1729121832
+-
+52.167.144.220
+0 1 1 1471 0 0
+-
+154.28.222.150
+0 1 0 0 1 1728148831
+-
+198.235.24.225
+0 1 0 146 1 1728982493
+-
+40.77.167.72
+0 1 1 1364 0 0
+-
+40.77.167.60
+0 1 1 1460 0 0
+-
+41.90.33.151
+0 71 25 1138467 0 0
+-
+40.77.167.70
+0 1 1 1364 0 0
+-
+52.167.144.234
+0 5 4 586509 1 1728513224
+-
+52.167.144.190
+0 1 0 245 0 0
+-
+52.167.144.171
+0 1 0 245 0 0
+-
+52.36.176.229
+0 12 6 8634 1 1727783411
+-
+40.77.189.70
+0 1 1 544804 0 0
+-
+40.77.167.53
+0 4 4 69411 0 0
+-
+40.77.188.197
+0 1 1 544804 0 0
+-
+40.77.167.224
+0 1 1 1460 0 0
+-
+157.55.39.50
+0 2 2 2369 0 0
+-
+41.90.40.128
+0 32 24 4382134 2 1728904366
+-
+205.210.31.89
+0 1 0 146 1 1728359495
+-
+40.77.167.126
+0 2 2 2369 0 0
+-
+52.167.144.136
+0 1 1 1460 0 0
+-
+40.77.167.136
+0 2 1 1471 1 1729093811
+-
+154.28.222.56
+0 1 1 1439 0 0
+-
+52.167.144.191
+0 1 1 1460 0 0
+-
+54.86.50.139
+0 2 2 0 0 0
+-
+40.77.167.10
+0 2 1 1460 1 1728277189
+-
+154.28.222.105
+0 1 0 0 1 1727807297
+-
+178.128.103.14
+0 1 0 0 1 1728739031
+-
+52.167.144.218
+0 1 1 1460 0 0
+-
+205.169.39.7
+0 14 12 1614554 1 1728324243
+-
+34.67.242.255
+0 1 0 118 1 1728084849
+-
+52.40.132.63
+0 20 10 14390 4 1727978257
+-
+52.167.144.173
+0 1 1 1471 0 0
+-
+40.77.188.224
+0 1 1 544804 0 0
+-
+52.167.144.187
+0 4 4 69411 0 0
+-
+104.152.52.69
+0 1 0 0 1 1728205900
+-
+40.77.188.141
+0 1 1 544880 0 0
+-
+197.136.0.4
+0 14 12 2190577 1 1728655578
+-
+207.46.13.154
+0 1 0 245 0 0
+-
+52.167.144.192
+0 1 0 245 0 0
+-
+34.135.211.21
+0 21 10 1084787 1 1728957461
+-
+40.77.167.144
+0 2 1 1471 1 1728855777
+-
+198.235.24.68
+0 1 0 146 1 1729295228
+-
+45.55.237.245
+0 6 2 3442 1 1728387286
+-
+18.203.185.234
+0 1 0 0 1 1728278405
+-
+154.28.222.167
+0 2 0 0 2 1728148831
+-
+205.210.31.226
+0 1 0 146 1 1728055777
+-
+40.77.189.254
+0 10 10 1201622 0 0
+-
+41.90.37.195
+0 17 6 16713 0 0
+-
+52.167.144.233
+0 1 1 1364 0 0
+-
+52.26.9.21
+0 8 4 5756 1 1727924974
+-
+40.77.167.241
+0 1 0 245 0 0
+-
+157.55.39.11
+0 2 0 245 1 1727800919
+-
+149.22.80.246
+0 47 40 3797317 1 1729187556
+-
+212.103.61.205
+0 1 0 261 1 1729134137
+-
+40.77.189.29
+0 1 1 5448 0 0
+-
+52.167.144.186
+0 1 1 1460 0 0
+-
+40.77.167.64
+0 2 2 987846 0 0
+-
+198.235.24.229
+0 1 0 146 1 1727799245
+-
+104.197.237.228
+0 1 0 118 1 1729213746
+-
+157.55.39.201
+0 1 1 826 0 0
+-
+40.77.167.46
+0 4 4 586509 0 0
+-
+198.235.24.109
+0 1 0 146 1 1729241268
+-
+52.167.144.239
+0 2 2 2920 0 0
+-
+205.210.31.206
+0 1 0 146 1 1727770658
+-
+52.167.144.229
+0 2 2 1089684 0 0
+-
+162.142.125.45
+0 6 4 12411 1 1727979730
+-
+104.47.73.126
+0 1 1 0 0 0
+-
+52.167.144.199
+0 2 2 2297 0 0
+-
+52.167.144.232
+0 2 2 2369 0 0
+-
+40.77.167.48
+0 1 1 1460 0 0
+-
+40.77.189.17
+0 1 1 1673 0 0
+-
+52.167.144.184
+0 8 8 655909 0 0
+-
+34.243.255.181
+0 1 0 0 1 1728307789
+-
+207.46.13.7
+0 2 1 1471 1 1728953028
+-
+128.199.17.36
+0 6 4 4576 1 1728039647
+-
+196.201.214.206
+0 6 1 0 0 0
+-
+40.77.167.33
+0 1 1 1460 0 0
+-
+34.30.254.147
+0 1 0 118 1 1728950364
+-
+35.184.223.96
+0 1 0 118 1 1727999524
+-
+34.170.240.204
+0 1 0 118 1 1727909516
+-
+154.159.252.253
+0 50 42 3799264 1 1728655575
+-
+52.167.144.225
+0 1 0 0 1 1727958947
+-
+205.169.39.50
+0 17 15 2192928 1 1728324420
+-
+35.193.172.60
+0 1 0 118 1 1728859520
+-
+196.201.214.200
+0 4 1 74 0 0
+-
+40.77.167.35
+0 1 0 245 0 0
+-
+52.167.144.16
+0 1 0 245 0 0
+-
+157.55.39.55
+0 4 2 2942 2 1729205321
+-
+104.47.58.126
+0 1 1 0 0 0
+-
+146.190.75.146
+0 6 2 3464 1 1728621906
+-
+54.200.111.84
+0 8 4 5756 1 1727980284
+-
+207.46.13.125
+0 1 1 826 0 0
+-
+154.28.222.7
+0 2 2 2878 0 0
+-
+40.77.189.13
+0 1 1 1594554 0 0
+-
+157.55.39.51
+0 1 1 1471 0 0
+-
+207.46.13.102
+0 1 0 245 0 0
+-
+34.123.192.136
+0 1 0 118 1 1728685698
+-
+52.167.144.236
+0 2 1 1471 1 1728858400
+-
+196.201.213.44
+0 3 0 0 0 0
+-
+164.90.135.149
+0 6 2 3464 1 1729270122
+-
+157.55.39.49
+0 3 3 585038 0 0
+-
+157.55.39.6
+0 1 1 1364 0 0
+-
+52.167.144.231
+0 2 1 1460 1 1728357183
+-
+157.55.39.10
+0 1 0 245 0 0
+-
+157.55.39.60
+0 1 1 1471 0 0
+-
+40.77.189.158
+0 1 1 544804 0 0
+-
+198.235.24.237
+0 1 0 146 1 1728958323
+-
+154.28.222.248
+0 1 1 1460 0 0
+-
+52.167.144.66
+0 1 0 245 0 0
+-
+41.90.34.81
+0 3931 1988 105604931 29 1728729806
+-
+40.77.167.55
+0 2 2 2931 0 0
+-
+40.77.167.47
+0 1 1 1460 0 0
+-
+40.77.167.38
+0 2 0 490 0 0
+-
+40.77.167.25
+0 1 0 0 0 0
+-
+207.46.13.17
+0 1 0 245 0 0
+-
+52.167.144.216
+0 1 1 1460 0 0
+-
+54.213.247.212
+0 8 4 5756 1 1727952988
+-
+40.77.189.253
+0 1 1 233754 0 0
+-
+105.160.69.177
+0 52 42 2919803 1 1727950398
+-
+52.167.144.188
+0 4 4 586509 0 0
+-
+205.210.31.217
+0 1 0 146 1 1728124020
+-
+52.167.144.57
+0 3 0 735 0 0
+-
+40.77.190.22
+0 1 1 6764 0 0
+-
+35.238.28.202
+0 1 0 118 1 1728343810
+-
+154.28.222.86
+0 1 0 0 1 1727979397
+-
+40.77.190.46
+0 1 1 264309 0 0
+-
+105.160.118.32
+0 76 49 3850279 1 1728129665
+-
+40.77.190.192
+0 1 1 544804 0 0
+-
+157.55.39.222
+0 3 0 735 0 0
+-
+185.172.52.254
+0 1 0 261 1 1729134137
+-
+40.77.188.178
+0 2 2 73674 0 0
+-
+52.167.144.166
+0 3 2 2931 1 1728416816
+-
+196.201.212.127
+0 2 1 0 0 0
+-
+40.77.167.247
+0 2 1 1471 1 1728503049
+-
+157.55.39.54
+0 1 1 1471 0 0
+-
+154.28.222.9
+0 1 1 1439 0 0
+-
+34.30.119.30
+0 1 0 118 1 1728777764
+-
+172.206.82.82
+0 30 22 3788233 1 1728490017
+-
+205.210.31.92
+0 1 0 146 1 1728366039
+-
+199.244.88.226
+0 2 1 1471 1 1728609379
+-
+52.167.144.161
+0 5 4 69411 1 1727859844
+-
+40.77.188.193
+0 1 1 544804 0 0
+-
+40.77.167.3
+0 2 2 2369 0 0
+-
+35.87.182.238
+0 8 4 5756 2 1727925050
+-
+154.28.222.246
+0 2 1 1460 1 1727807297
+-
+40.77.167.243
+0 2 2 2369 0 0
+-
+157.55.39.48
+0 5 5 70239 0 0
+-
+52.143.97.249
+0 30 22 3788195 1 1728249121
+-
+40.77.190.177
+0 1 1 1019 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+52.167.144.190
+0 1 0 245 0 0
+-
+52.167.144.171
+0 1 0 245 0 0
+-
+207.46.13.154
+0 1 0 245 0 0
+-
+198.235.24.68
+0 1 0 146 1 1729295228
+-
+40.77.167.241
+0 1 0 245 0 0
+-
+157.55.39.11
+0 1 0 245 0 0
+-
+104.197.237.228
+0 1 0 118 1 1729213746
+-
+198.235.24.109
+0 1 0 146 1 1729241268
+-
+207.46.13.102
+0 1 0 245 0 0
+-
+164.90.135.149
+0 6 2 3464 1 1729270122
+-
+157.55.39.10
+0 1 0 245 0 0
+-
+40.77.167.38
+0 2 0 490 0 0
+-
+207.46.13.17
+0 1 0 245 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://portal.gwedhah.co.ke/accounts/reports/profitloss
+0 8
+http://portal.gwedhah.co.ke
+0 17
+https://portal.gwedhah.co.ke/pay-now-copy.php
+0 15
+https://portal.gwedhah.co.ke/search-manager-profile.php
+0 6
+https://portal.gwedhah.co.ke/accounts/reports/ledgerstatement/ledgerid:11
+0 2
+https://portal.gwedhah.co.ke/cleared-loans.php
+0 20
+https://portal.gwedhah.co.ke/accounts/wzusers/forgot
+0 6
+https://portal.gwedhah.co.ke
+0 1
+https://portal.gwedhah.co.ke/loan-defaults.php
+0 5
+http://portal.gwedhah.co.ke/vendors/styles/icon-font.min.css
+0 1
+https://portal.gwedhah.co.ke/accounts/webzash/css/bootstrap.min.css
+0 5
+https://portal.gwedhah.co.ke/printify.php
+0 25
+https://portal.gwedhah.co.ke/accounts/wzusers/account
+0 48
+https://portal.gwedhah.co.ke/my-manager-profile.php
+0 11
+https://portal.gwedhah.co.ke/loan-approval.php
+0 204
+https://portal.gwedhah.co.ke/accounts/admin/index
+0 34
+https://portal.gwedhah.co.ke/search-loan-id.php
+0 69
+https://portal.gwedhah.co.ke/apply-loan.php
+0 123
+https://portal.gwedhah.co.ke/uploads/pic2_67065091d0bd8.jpg
+0 1
+https://portal.gwedhah.co.ke/rejected-loans.php
+0 30
+https://portal.gwedhah.co.ke/accounts/webzash/css/jquery-ui.theme.css
+0 19
+https://portal.gwedhah.co.ke/settings.php
+0 236
+https://portal.gwedhah.co.ke/uploads/signed_application_67065092012f2.jpg
+0 1
+https://portal.gwedhah.co.ke/admin_dashboard.php
+0 890
+https://portal.gwedhah.co.ke/accounts/wzaccounts/index
+0 14
+http://www.portal.gwedhah.co.ke/login.php
+0 15
+https://portal.gwedhah.co.ke/payments-handler.php
+0 247
+https://portal.gwedhah.co.ke/uploads/pic1_6705754f3883e.jpg
+0 1
+https://portal.gwedhah.co.ke/defaulted-loans.php
+0 35
+https://www.google.com/
+0 2
+- (Direct Request)
+0 386
+https://portal.gwedhah.co.ke/accounts/reports/ledgerstatement/ledgerid:12
+0 3
+https://portal.gwedhah.co.ke/active-loans.php
+0 49
+https://ntp.msn.com/
+0 6
+https://www.portal.gwedhah.co.ke/
+0 1
+https://portal.gwedhah.co.ke/uploads/signed_application_6703b8dd01e40.jpg
+0 3
+https://portal.gwedhah.co.ke/vendors/styles/style.css
+0 2
+https://portal.gwedhah.co.ke/onboard-client.php
+0 114
+https://portal.gwedhah.co.ke/accounts/reports/ledgerstatement/ledgerid:11/print:true
+0 1
+https://portal.gwedhah.co.ke/my-profile.php
+0 53
+https://portal.gwedhah.co.ke/search-national-id.php
+0 290
+https://portal.gwedhah.co.ke/reset-password.php
+0 34
+https://portal.gwedhah.co.ke/edit-loan-application.php
+0 88
+https://portal.gwedhah.co.ke/login.html
+0 2
+https://portal.gwedhah.co.ke/accounts/wzsetups/index
+0 11
+http://www.portal.gwedhah.co.ke/
+0 2
+https://portal.gwedhah.co.ke/forgot-password.php
+0 11
+https://portal.gwedhah.co.ke/vendors/styles/icon-font.min.css
+0 265
+https://portal.gwedhah.co.ke/accounts/wzusers/first
+0 7
+https://portal.gwedhah.co.ke/accounts/reports/ledgerstatement/ledgerid:22
+0 2
+https://gwedhah.co.ke/
+0 4
+https://portal.gwedhah.co.ke/search-collateral.php
+0 28
+https://portal.gwedhah.co.ke/info.php
+0 1
+https://portal.gwedhah.co.ke/officer-loan-reports.php
+0 139
+http://www.portal.gwedhah.co.ke
+0 15
+https://portal.gwedhah.co.ke/accounts/wzaccounts/add
+0 3
+https://portal.gwedhah.co.ke/client_dashboard.php
+0 89
+https://portal.gwedhah.co.ke/php_error.log
+0 1
+http://www.portal.gwedhah.co.ke/vendors/styles/icon-font.min.css
+0 1
+https://portal.gwedhah.co.ke/loan-clearance.php
+0 8
+https://portal.gwedhah.co.ke/accounts/wzusers/login
+0 127
+https://portal.gwedhah.co.ke/login.php
+0 438
+https://portal.gwedhah.co.ke/template.php
+0 6
+https://www.portal.gwedhah.co.ke/login.php
+0 1
+https://portal.gwedhah.co.ke/edit-my-profile.php
+0 13
+https://portal.gwedhah.co.ke/interest.php
+0 1
+http://portal.gwedhah.co.ke/
+0 4
+https://portal.gwedhah.co.ke/
+0 3
+https://portal.gwedhah.co.ke/update_company_settings.php
+0 7
+https://portal.gwedhah.co.ke/onboard-manager.php
+0 11
+https://portal.gwedhah.co.ke/accounts/accounts/show
+0 7
+https://portal.gwedhah.co.ke/accrued-interest.php
+0 2
+https://portal.gwedhah.co.ke/accounts/reports/balancesheet
+0 6
+https://portal.gwedhah.co.ke/accounts/wzsettings/edit
+0 6
+https://portal.gwedhah.co.ke/pay-now.php
+0 76
+https://outlook.live.com/
+0 2
+https://portal.gwedhah.co.ke/accounts/entries/index
+0 84
+https://portal.gwedhah.co.ke/terms-and-conditions.php
+0 1
+https://portal.gwedhah.co.ke/accounts/dashboard/index
+0 25
+https://portal.gwedhah.co.ke/accounts/reports/trialbalance
+0 9
+https://portal.gwedhah.co.ke/uploads/pic2_670250b926475.jpg
+0 1
+https://portal.gwedhah.co.ke/search-client-profile.php
+0 95
+https://portal.gwedhah.co.ke/accounts/
+0 13
+http://portal.gwedhah.co.ke/login.php
+0 14
+https://portal.gwedhah.co.ke/uploads/guarantor-back_67064d431c21b.jpg
+0 1
+https://portal.gwedhah.co.ke/accounts/wzsetups/install
+0 3
+https://portal.gwedhah.co.ke/manager_dashboard.php
+0 46
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Sa
+0 22
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/100.0.48
+0 14
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+0 21
+Mozilla/5.0 (Linux; Android 14; SM-A042F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36
+0 14
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/112.0.0.
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+0 3428
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Sa
+0 20
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 24
+Go-http-client/1.1
+0 2
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.19
+0 131
+Mozilla/5.0 (iPad; CPU OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.
+0 12
+Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+0 15
+python-requests/2.32.3
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0
+0 66
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1
+0 20
+PostmanRuntime/7.42.0
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+0 22
+curl/7.61.1
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.114 Safari/537.36
+0 30
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 712
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.141 Safari/537.36
+0 30
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36
+0 50
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 31
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

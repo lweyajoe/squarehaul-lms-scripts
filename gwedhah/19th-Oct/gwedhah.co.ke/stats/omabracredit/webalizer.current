@@ -1,0 +1,740 @@
+# Webalizer V2.23-08 Incremental Data - 10/18/2024 14:44:50
+2024 10 18 14 44 50
+728 423 105 63 27 61 34796846 122 96 0
+3 2 221 4 18
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+564 347 30743727 59 60 47
+67 52 4001098 11 10 9
+40 24 37721 12 14 9
+9 0 1827 6 6 5
+6 0 1566 3 3 2
+4 0 1341 4 3 3
+2 0 522 2 2 2
+10 0 2380 3 6 4
+7 0 1881 4 5 4
+4 0 1044 1 2 1
+2 0 522 2 2 2
+3 0 607 3 3 3
+4 0 1044 3 2 2
+0 0 0 0 0 0
+6 0 1566 3 4 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 315 1
+0 0 0 0
+0 0 0 0
+6 0 1280 4
+2 0 522 2
+3 0 261 3
+2 0 522 2
+5 0 1305 3
+3 1 2015 1
+17 7 12325 9
+91 51 34452 52
+212 110 9160228 5
+286 188 19298283 16
+5 2 3175 2
+41 31 2728744 8
+7 5 8549 2
+0 0 0 0
+2 0 522 2
+8 0 2027 4
+17 14 2290216 3
+16 13 1251203 2
+3 1 756 0
+0 0 0 0
+1 0 146 1
+0
+0
+0
+423
+0
+0
+0
+0
+0
+0
+0
+0
+52
+0
+138
+0
+0
+2
+0
+0
+6
+104
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/register.php
+0 6 0 5834 0 0
+/vendors/images/apple-touch-icon.png
+0 1 0 32710 0 0
+/login.php/vendors/images/omabra_logo.png
+0 2 0 3344 0 0
+/src/plugins/highcharts-6.0.7/code/highcharts.js
+0 3 0 166152 0 0
+/vendors/fonts/bootstrap-icons.woff2
+0 5 0 204760 0 0
+/src/plugins/datatables/js/buttons.html5.min.js
+0 3 0 14512 0 0
+/client_dashboard.php
+0 5 0 32499 0 0
+/login.php
+0 59 0 84836 0 0
+/vendors/scripts/core.js
+0 25 0 8095763 0 0
+/printify.php
+0 1 0 5018 0 0
+/src/styles/style.css
+0 4 0 42412 0 0
+/vendors/styles/core.css
+0 24 0 771038 0 0
+/src/plugins/datatables/js/jquery.dataTables.min.js
+0 5 0 67786 0 0
+/src/plugins/jquery-steps/jquery.steps.css
+0 4 0 3212 0 0
+/src/plugins/apexcharts/apexcharts.min.js
+0 3 0 280748 0 0
+/vendors/scripts/dashboard2.js
+0 5 0 2520 0 0
+/vendors/images/omabra_logo.png
+0 23 0 1411170 0 0
+/login.php/robots.txt
+0 4 0 5828 0 0
+/src/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js
+0 3 0 33982 0 0
+/vendors/styles/icon-font.min.css
+0 25 0 836207 0 0
+/api/callback.php
+0 1 0 234 0 0
+/my-profile.php
+0 2 0 7908 0 0
+/src/plugins/datatables/js/buttons.flash.min.js
+0 3 0 15118 0 0
+/vendors/scripts/script.min.js
+0 24 0 34900 0 0
+/vendors/fonts/fontawesome-webfont.woff2
+0 6 0 231480 0 0
+/vendors/images/login-page-img.png
+0 20 0 11994088 0 0
+/manager_dashboard.php
+0 1 0 3939 0 0
+/vendors/images/favicon-16x16.png
+0 3 0 2391 0 0
+/fetch-loan-data.php
+0 8 0 2144 0 0
+/vendors/images/forgot-password.png
+0 1 0 394554 0 0
+/vendors/scripts/apexcharts-setting.js
+0 4 0 2748 0 0
+/apply-loan-self.php
+0 12 0 18504 0 0
+/vendors/scripts/datatable-setting.js
+0 3 0 1878 0 0
+/vendors/scripts/layout-settings.js
+0 24 0 24740 0 0
+/src/plugins/datatables/js/buttons.bootstrap4.min.js
+0 3 0 1092 0 0
+/vendors/fonts/themify.woff
+0 1 0 56108 0 0
+/api/stk_push.php
+0 1 0 68 0 0
+/vendors/images/favicon-32x32.png
+0 15 0 20890 0 0
+/src/plugins/jvectormap/jquery-jvectormap-2.0.3.css
+0 4 0 7266 0 0
+/src/plugins/cropperjs/dist/cropper.css
+0 5 0 3000 0 0
+/src/plugins/datatables/js/pdfmake.min.js
+0 3 0 887424 0 0
+/pay-now.php
+0 1 0 3841 0 0
+/search-loan-id.php
+0 3 0 11498 0 0
+/src/plugins/apexcharts/apexcharts.css
+0 4 0 6128 0 0
+/vendors/styles/style.css
+0 25 0 313673 0 0
+/src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+0 3 0 91994 0 0
+/src/plugins/datatables/js/responsive.bootstrap4.min.js
+0 5 0 1256 0 0
+/vendors/scripts/process.js
+0 24 0 13248 0 0
+/vendors/fonts/ionicons.ttf
+0 5 0 377016 0 0
+/src/plugins/jQuery-Knob-master/jquery.knob.min.js
+0 3 0 8096 0 0
+/src/plugins/datatables/js/dataTables.buttons.min.js
+0 3 0 14526 0 0
+/vendors/fonts/dropways.ttf
+0 20 0 7082452 0 0
+/my-manager-profile.php
+0 1 0 3690 0 0
+/
+0 41 0 11531 96 10
+/vendors/images/person.svg
+0 25 0 14160 0 0
+/src/plugins/datatables/js/dataTables.bootstrap4.min.js
+0 5 0 3212 0 0
+/src/plugins/datatables/js/dataTables.responsive.min.js
+0 5 0 10210 0 0
+/login.php/sitemap.xml
+0 4 0 5828 0 0
+/src/plugins/highcharts-6.0.7/code/highcharts-more.js
+0 3 0 26098 0 0
+/forgot-password.php
+0 1 0 1360 0 0
+/src/plugins/datatables/js/vfs_fonts.js
+0 3 0 944276 0 0
+/src/plugins/datatables/js/buttons.print.min.js
+0 3 0 2376 0 0
+/vendors/images/briefcase.svg
+0 20 0 7975 0 0
+# End Of Table - urls
+# -sites- (monthly)
+167.99.187.99
+0 4 0 1044 1 1729235473
+/
+185.14.192.125
+0 2 1 528 1 1728038734
+/
+154.28.222.150
+0 1 0 261 1 1729059604
+/
+45.81.148.13
+0 3 1 527 1 1728039607
+/
+52.16.245.145
+0 10 6 2092 1 1728038749
+/
+64.15.129.107
+0 1 1 413 1 1728038574
+/
+51.68.48.117
+0 4 2 11426 1 1728042625
+/
+104.152.52.58
+0 1 0 315 1 1728950640
+/
+154.28.222.41
+0 1 0 261 1 1728590239
+/
+77.83.27.187
+0 1 0 261 0 0
+-
+34.77.139.124
+0 1 0 118 1 1728097410
+/
+154.28.222.231
+0 1 0 261 1 1729262690
+/
+15.229.47.180
+0 2 1 1457 1 1728209544
+/
+138.201.36.136
+0 1 1 413 1 1728038321
+/
+64.15.129.123
+0 1 1 413 1 1728038565
+/
+80.255.7.106
+0 2 1 512 1 1728038322
+/
+35.94.149.213
+0 1 0 0 1 1728279315
+/
+154.28.222.105
+0 1 0 261 1 1728321606
+/
+154.28.222.24
+0 2 1 1457 1 1728130423
+/
+198.235.24.73
+0 1 0 146 1 1729022582
+/
+178.128.103.14
+0 2 0 522 0 0
+-
+52.32.56.175
+0 26 26 4575722 0 0
+-
+185.68.246.174
+0 2 1 528 1 1728038726
+/
+154.28.222.88
+0 2 1 1718 1 1728897535
+/
+98.83.206.165
+0 1 0 261 0 0
+-
+198.235.24.194
+0 1 0 146 1 1728642192
+/
+104.166.80.100
+0 2 1 1457 1 1728042010
+/
+34.79.213.51
+0 1 0 118 1 1728097410
+/
+193.151.190.176
+0 2 1 528 1 1728038726
+/
+77.243.88.47
+0 2 1 528 1 1728038796
+/
+83.171.226.193
+0 2 1 528 1 1728038791
+/
+106.75.98.180
+0 9 7 11307 1 1728209794
+/
+92.17.142.27
+0 1 1 267 1 1728038484
+/
+34.219.104.92
+0 2 1 1457 1 1728044714
+/
+223.113.128.160
+0 3 0 248 1 1728206865
+/
+45.141.152.74
+0 15 14 2289694 1 1728070140
+/
+52.67.162.255
+0 1 0 261 1 1728735332
+/
+140.179.7.43
+0 9 7 11307 1 1728208731
+/
+45.137.198.155
+0 2 0 1116 0 0
+-
+173.244.55.48
+0 4 3 83145 1 1728053561
+/
+212.143.94.254
+0 3 2 779 1 1728038401
+/
+193.151.189.149
+0 1 0 261 0 0
+-
+223.113.128.176
+0 3 0 248 1 1728208321
+/
+34.217.77.10
+0 1 0 0 1 1728277566
+/
+64.15.129.108
+0 1 1 413 1 1728038573
+/
+167.172.73.68
+0 2 0 522 0 0
+-
+93.174.93.114
+0 1 1 267 1 1728038378
+/
+40.80.158.10
+0 34 32 5050943 1 1728041213
+/
+205.169.39.232
+0 2 2 534 1 1728037730
+/
+194.99.24.28
+0 1 1 267 1 1728038754
+/
+134.209.22.233
+0 6 4 7092 1 1728143607
+/
+212.18.127.50
+0 1 1 267 1 1728038795
+/
+154.28.222.120
+0 2 0 261 2 1728735329
+/
+34.220.204.8
+0 26 26 4575714 0 0
+-
+196.201.214.200
+0 1 0 261 0 0
+-
+167.172.182.6
+0 4 0 1044 1 1728313003
+/
+3.21.92.47
+0 1 0 261 1 1728458441
+/
+185.89.43.250
+0 2 1 528 1 1728038795
+/
+95.217.46.51
+0 1 0 0 1 1728043846
+/
+205.169.39.37
+0 1 1 267 1 1728037857
+/
+138.197.23.3
+0 6 4 7092 1 1728216053
+/
+45.148.233.68
+0 1 1 267 1 1728038786
+/
+94.102.49.123
+0 14 13 1250796 1 1728073386
+/
+198.235.24.211
+0 1 0 146 1 1729035104
+/
+196.201.213.44
+0 2 1 495 0 0
+-
+104.152.52.61
+0 1 0 315 1 1728758585
+/
+89.208.29.247
+0 6 5 150033 1 1728053557
+/
+44.210.235.145
+0 1 1 267 1 1728038820
+/
+178.33.107.250
+0 2 1 1457 1 1728116511
+/
+159.203.19.198
+0 4 0 1044 1 1728359720
+/
+154.28.222.248
+0 1 0 0 1 1728130425
+/
+41.90.34.81
+0 304 131 5660915 2 1728046344
+/
+104.166.80.104
+0 18 16 2322569 1 1728053012
+/
+5.188.217.44
+0 1 0 261 0 0
+-
+185.14.192.201
+0 2 1 528 1 1728038730
+/
+142.93.238.219
+0 16 0 4176 4 1728816360
+/
+154.28.222.152
+0 4 1 789 4 1728590241
+/
+146.70.187.120
+0 2 1 528 1 1728038288
+/
+156.146.41.69
+0 1 1 267 1 1728038440
+/
+54.184.195.179
+0 6 3 4371 1 1728044713
+/
+34.66.40.106
+0 2 1 1457 1 1728220964
+/
+104.166.80.13
+0 2 1 1457 1 1728043775
+/
+46.161.56.173
+0 2 1 528 1 1728038733
+/
+154.28.222.86
+0 1 0 261 1 1728897532
+/
+141.98.84.240
+0 1 1 267 1 1728038787
+/
+3.16.29.63
+0 1 0 558 0 0
+-
+105.160.118.32
+0 49 43 3986485 1 1728130073
+/
+50.114.94.24
+0 2 2 149408 0 0
+-
+154.28.222.214
+0 1 1 1457 0 0
+-
+35.91.170.54
+0 26 26 4575730 0 0
+-
+146.185.206.94
+0 1 0 261 0 0
+-
+18.230.67.152
+0 2 1 1457 1 1728130262
+/
+205.169.39.122
+0 2 2 534 1 1728037867
+/
+154.28.222.216
+0 1 1 1457 0 0
+-
+45.133.7.13
+0 3 3 20852 0 0
+-
+154.28.222.9
+0 2 0 522 2 1729059607
+/
+34.42.217.237
+0 2 1 1457 1 1728220964
+/
+185.195.233.145
+0 2 1 528 1 1728038653
+/
+104.197.69.115
+0 1 1 267 1 1728037700
+/
+195.138.249.6
+0 1 0 261 1 1728365689
+/
+198.235.24.147
+0 1 0 146 1 1728669932
+/
+15.228.175.139
+0 1 1 267 1 1728037722
+/
+85.237.194.107
+0 2 2 1171 0 0
+-
+34.123.170.104
+0 1 1 267 1 1728038771
+/
+154.28.222.22
+0 2 0 522 2 1729262660
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+167.99.187.99
+0 4 0 1044 1 1729235473
+/
+154.28.222.231
+0 1 0 261 1 1729262690
+/
+154.28.222.22
+0 1 0 261 1 1729262660
+/
+# End Of Table - sites (daily)
+# -referrers- 
+https://omabracredit.gwedhah.co.ke/my-manager-profile.php
+0 35
+https://omabracredit.gwedhah.co.ke/client_dashboard.php
+0 69
+http://www.omabracredit.gwedhah.co.ke/
+0 3
+http://omabracredit.gwedhah.co.ke/login.php
+0 45
+https://www.google.ie/
+0 1
+https://omabracredit.gwedhah.co.ke/apply-loan-self.php
+0 49
+http://www.omabracredit.gwedhah.co.ke/vendors/styles/icon-font.min.css
+0 2
+https://omabracredit.gwedhah.co.ke/pay-now.php
+0 3
+http://omabracredit.gwedhah.co.ke/vendors/styles/icon-font.min.css
+0 4
+https://www.google.com/
+0 1
+- (Direct Request)
+0 209
+https://omabracredit.gwedhah.co.ke/register.php
+0 6
+https://omabracredit.gwedhah.co.ke/my-profile.php
+0 31
+https://www.omabracredit.gwedhah.co.ke/vendors/styles/icon-font.min.css
+0 6
+http://www.omabracredit.gwedhah.co.ke
+0 2
+https://omabracredit.gwedhah.co.ke/vendors/styles/icon-font.min.css
+0 25
+https://www.omabracredit.gwedhah.co.ke/login.php
+0 76
+http://www.omabracredit.gwedhah.co.ke/login.php
+0 23
+https://www.omabracredit.gwedhah.co.ke/
+0 6
+https://omabracredit.gwedhah.co.ke/login.php
+0 105
+https://omabracredit.gwedhah.co.ke/search-loan-id.php
+0 10
+http://omabracredit.gwedhah.co.ke/
+0 2
+https://www.omabracredit.gwedhah.co.ke/forgot-password.php
+0 2
+https://omabracredit.gwedhah.co.ke/manager_dashboard.php
+0 5
+https://omabracredit.gwedhah.co.ke/
+0 4
+http://omabracredit.gwedhah.co.ke
+0 2
+https://www.omabracredit.gwedhah.co.ke/register.php
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G965U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile S
+0 30
+Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Sa
+0 13
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Mobile Safari/537.
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+0 17
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; U; Android 1.5; en-gb; T-Mobile_G2_Touch Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+0 16
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.78 Safari/537.36
+0 19
+Mozilla/5.0 (Windows NT 8_2; Win64; x64) AppleWebKit/592.41 (KHTML, like Gecko) Chrome/95.0.2663 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+0 352
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.14) Gecko/20110218 AlexaToolbar/alxf-2.0 Firefox/3.6.14
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 8_2_1) AppleWebKit/598.37 (KHTML, like Gecko) Chrome/94.0.2921 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 9; RMX1851) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 24
+Mozilla/5.0 (Macintosh; Intel Mac OS X 9_1_1) AppleWebKit/540.44 (KHTML, like Gecko) Chrome/74.0.608 Safari/537.36
+0 1
+Go-http-client/1.1
+0 12
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Mobile/15E14
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+0 15
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.65 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+0 24
+Apache/2.4.34 (Ubuntu) OpenSSL/1.1.1 (internal dummy connection)
+0 2
+Mozilla/5.0 (iPad; CPU OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.
+0 24
+WhatsApp/2.23.20.0
+0 1
+Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+0 3
+Python/3.10 aiohttp/3.8.3
+0 2
+Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/120.0
+0 4
+python-requests/2.32.3
+0 2
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+0 2
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1
+0 30
+Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.142 Safari/537.36
+0 15
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+0 13
+curl/7.61.1
+0 2
+Mozilla/5.0 (Linux; Android 7.0; LGL84VL Build/NRD90U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Saf
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/92.0.4515.159 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/547.47 (KHTML, like Gecko) Chrome/56.0.2401 Safari/537.36
+0 1
+miteru/2.3.2
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.132 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 17
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 9_1_1; Win64; x64) AppleWebKit/598.41 (KHTML, like Gecko) Chrome/81.0.2748 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 8_0) AppleWebKit/601.40 (KHTML, like Gecko) Chrome/84.0.423 Safari/537.36
+0 1
+curl/7.29.0
+0 6
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 14.1; rv:109.0) Gecko/20100101 Firefox/120.0
+0 18
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

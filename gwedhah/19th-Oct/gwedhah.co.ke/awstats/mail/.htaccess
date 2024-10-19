@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.mail.gwedhah.co.ke$ [NC]
+RewriteRule ^(.*)$ http://mail.gwedhah.co.ke/awstats/$1 [R=301,L]

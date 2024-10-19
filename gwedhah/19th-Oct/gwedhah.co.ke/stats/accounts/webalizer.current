@@ -1,0 +1,267 @@
+# Webalizer V2.23-08 Incremental Data - 10/19/2024 00:25:48
+2024 10 19 0 25 48
+51 16 28 10 7 16 237955 35 26 0
+1 1 23 1 19
+2 0 292 2 2 2
+12 10 185939 2 4 2
+4 2 2576 1 4 1
+6 4 19080 1 4 1
+5 0 22468 5 4 4
+1 0 2391 1 1 1
+1 0 245 1 1 1
+3 0 805 3 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 315 1 1 1
+2 0 630 2 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 261 1 1 1
+0 0 0 0 0 0
+5 0 1095 4 3 3
+7 0 1597 4 5 4
+1 0 261 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 261 1
+2 0 576 2
+10 9 184655 2
+5 0 1095 3
+0 0 0 0
+8 5 20364 6
+0 0 0 0
+3 0 2967 3
+1 0 315 1
+1 0 146 1
+2 0 292 2
+1 0 146 1
+1 0 315 1
+0 0 0 0
+12 2 4501 9
+0 0 0 0
+2 0 4055 1
+1 0 18121 1
+0 0 0 0
+1 0 146 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+16
+0
+0
+0
+0
+0
+0
+0
+0
+6
+0
+0
+0
+0
+0
+0
+0
+6
+18
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+# -urls- 
+/squarehaul/css/custom.css
+0 1 0 1567 0 0
+/squarehaul/css/jquery-ui.css
+0 1 0 6329 0 0
+/squarehaul/css/jquery-ui.theme.css
+0 1 0 3111 0 0
+/squarehaul/css/bootstrap.min.css
+0 1 0 17162 0 0
+/squarehaul/js/bootstrap.min.js
+0 1 0 7679 0 0
+/squarehaul/js/jquery-1.10.2.js
+0 1 0 32802 0 0
+/squarehaul/css/jquery-ui.structure.css
+0 1 0 3550 0 0
+/squsers/login
+0 6 0 7716 5 0
+/squarehaul/js/jquery-1.11.0.ui.js
+0 1 0 111169 0 0
+/squarehaul/img/favicon.ico
+0 2 0 16510 0 0
+# End Of Table - urls
+# -sites- (monthly)
+68.183.37.89
+0 4 0 1044 1 1729262821
+-
+41.90.33.151
+0 10 9 184655 1 1727835833
+/squsers/login
+93.119.227.19
+0 1 0 315 1 1728695608
+-
+20.210.58.98
+0 1 0 18121 1 1728149577
+/squsers/login
+205.210.31.58
+0 1 0 146 1 1729261254
+-
+104.152.52.55
+0 1 0 315 1 1728373264
+-
+52.36.176.229
+0 4 2 2576 1 1727964234
+/squsers/login
+3.255.159.70
+0 1 0 315 1 1728635083
+-
+198.235.24.230
+0 1 0 146 1 1729279128
+-
+52.167.144.187
+0 1 0 245 1 1728310106
+/squsers/login
+198.235.24.69
+0 1 0 146 1 1728122443
+-
+34.135.211.21
+0 1 0 261 1 1728964272
+-
+194.35.121.89
+0 1 0 261 1 1729134133
+-
+69.4.89.106
+0 1 0 315 1 1728736596
+-
+207.46.13.111
+0 1 0 245 1 1728396518
+/squsers/login
+205.210.31.194
+0 1 0 146 1 1727775195
+-
+205.210.31.247
+0 1 0 146 1 1728128019
+-
+35.213.195.32
+0 1 0 261 1 1729128631
+-
+5.253.115.71
+0 1 0 156 0 0
+-
+207.46.13.125
+0 1 0 2390 1 1728144729
+/squsers/login
+167.94.145.96
+0 1 0 261 1 1729297548
+-
+40.77.167.181
+0 2 0 1910 0 0
+-
+104.166.80.175
+0 1 0 261 1 1729234990
+-
+207.46.13.126
+0 1 0 2391 1 1728199296
+/squsers/login
+159.65.112.39
+0 6 4 19080 1 1728020884
+/squsers/login
+185.172.52.76
+0 2 0 417 1 1729134133
+-
+205.210.31.94
+0 1 0 146 1 1727776899
+-
+104.166.80.60
+0 2 1 1284 1 1727846576
+/squsers/login
+# End Of Table - sites (monthly)
+# -sites- (daily)
+167.94.145.96
+0 1 0 261 1 1729297548
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://localhost/
+0 2
+- (Direct Request)
+0 33
+https://accounts.gwedhah.co.ke/squsers/login
+0 9
+http://accounts.gwedhah.co.ke
+0 2
+https://accounts.gwedhah.co.ke/
+0 2
+http://accounts.gwedhah.co.ke/squsers/login
+0 1
+http://accounts.gwedhah.co.ke/
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Sa
+0 2
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.2; rb.gy/oupwis) Chrome/124
+0 1
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 10
+Go-http-client/1.1
+0 4
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.19
+0 6
+Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/120.0
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0
+0 1
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1
+0 2
+curl/7.61.1
+0 1
+Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 1
+Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Sa
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,1272 @@
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2760161
+                    [CheckoutRequestID] => ws_CO_30092024175034863708374149
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2762525
+                    [CheckoutRequestID] => ws_CO_30092024175120832708374149
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d128907
+                    [CheckoutRequestID] => ws_CO_30092024181629546708374149
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2760986
+                    [CheckoutRequestID] => ws_CO_30092024190105312717158091
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2763410
+                    [CheckoutRequestID] => ws_CO_30092024190214489717158091
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 54.86.50.139
+    [Connection] => close
+    [Content-Length] => 549
+    [Content-Type] => application/json
+    [User-Agent] => PostmanRuntime/7.42.0
+    [Accept] => */*
+    [Cache-Control] => no-cache
+    [Postman-Token] => 427881ce-f1a4-427c-b511-590b283b4877
+    [Accept-Encoding] => gzip, deflate, br
+)
+
+Raw Callback Data: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "XXXXX",
+      "CheckoutRequestID": "XXXXX",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {"Name": "Amount", "Value": 10},
+          {"Name": "MpesaReceiptNumber", "Value": "ABC1234XYZ"},
+          {"Name": "Balance"},
+          {"Name": "TransactionDate", "Value": 20241008},
+          {"Name": "PhoneNumber", "Value": 2547XXXXXXXX}
+        ]
+      }
+    }
+  }
+}
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 54.86.50.139
+    [Connection] => close
+    [Content-Length] => 549
+    [Content-Type] => application/json
+    [User-Agent] => PostmanRuntime/7.42.0
+    [Accept] => */*
+    [Cache-Control] => no-cache
+    [Postman-Token] => 3507c2f8-c2ea-4742-9b25-175e7be3694d
+    [Accept-Encoding] => gzip, deflate, br
+    [Cookie] => PHPSESSID=hrb3s9g1ib5kfi6kalc84gqtov
+)
+
+Raw Callback Data: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "XXXXX",
+      "CheckoutRequestID": "XXXXX",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {"Name": "Amount", "Value": 10},
+          {"Name": "MpesaReceiptNumber", "Value": "ABC1234XYZ"},
+          {"Name": "Balance"},
+          {"Name": "TransactionDate", "Value": 20241008},
+          {"Name": "PhoneNumber", "Value": 2547XXXXXXXX}
+        ]
+      }
+    }
+  }
+}
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 0403144c-b9e7-4dba-8f7f-e858b3016ab4
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => b527794aecc83050cabca754858265f9
+    [x-b3-spanid] => cabca754858265f9
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.213.44
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 6235b8d3-dfca-4fd2-9841-c6366bb0d9a5
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 291d2e2b10d854bc39aae52df4aa9425
+    [x-b3-spanid] => 39aae52df4aa9425
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 2a33af6a-9ddf-4e19-bd4c-386e4a57d0a9
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 010a19826b608483b8751844a28af84c
+    [x-b3-spanid] => b8751844a28af84c
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 03f404ee-4802-423c-ba85-ff22629dfbdf
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 23473dc88e6ee0359b33637e1c66dce6
+    [x-b3-spanid] => 9b33637e1c66dce6
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 5e5e4502-060d-4837-bef0-e1aa1a4285f0
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;8;2140750741;38417123;0;643789619;257;8347;2h01;3h7f994395;4h024a32e3;5h01;6ha69c337d3a5ff7130cd12f9c8c7c375e;7h916c7bea70597ebf
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;8;7f994395;24a32e3;0;0;0;101;4615;2h01;3h7f994395;4h024a32e3;5h01;7h916c7bea70597ebf
+    [traceparent] => 00-a69c337d3a5ff7130cd12f9c8c7c375e-916c7bea70597ebf-01
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.213.44
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 36c61a89-e732-449d-a6fd-be8c0265b735
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => d11c48bc49ba6b18d144a5b8b7e06aa5
+    [x-b3-spanid] => d144a5b8b7e06aa5
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.213.44
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 1b21023e-e7de-4814-8f47-6f1b50f54b00
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;5;-512596723;17965731;-2147483648;643789619;292;e898;2h01;3he172650d;4h011222a3;5h01;6h2b7a74433ef8eea7e28bfe9147b40e94;7h45e742e1ba9fcbdc
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;5;e172650d;11222a3;0;1;0;124;1f5a;2h01;3he172650d;4h011222a3;5h01;7h45e742e1ba9fcbdc
+    [traceparent] => 00-2b7a74433ef8eea7e28bfe9147b40e94-45e742e1ba9fcbdc-00
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 2fc3e2fa-22f5-4304-b116-2fea587cf221
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 997612a457dc00071d4334e524a0df99
+    [x-b3-spanid] => 1d4334e524a0df99
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.212.127
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 517efd4f-e949-4ffc-8eaf-932340c498bc
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 7fdaafe81471057197f689a59d5fe0f2
+    [x-b3-spanid] => 97f689a59d5fe0f2
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379130","CheckoutRequestID":"ws_CO_09102024030917313717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ97FHEX0X"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009030919},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d379130
+                    [CheckoutRequestID] => ws_CO_09102024030917313717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ97FHEX0X
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009030919
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => aa84b95f-fb13-4414-9a02-fe936e4d8420
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => f90bf937469435d48558c0c09c6bd8f4
+    [x-b3-spanid] => 8558c0c09c6bd8f4
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2984346","CheckoutRequestID":"ws_CO_09102024031933738717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ97FHIAM5"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009031926},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2984346
+                    [CheckoutRequestID] => ws_CO_09102024031933738717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ97FHIAM5
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009031926
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.212.127
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => a3bdb079-e29d-4754-8d59-1c45c48b31cb
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;4;69703475;17672722;0;643789619;930;201c;2h01;3h04279733;4h010daa12;5h01;6h21e918bd3eb7c73f9c41df0691a5916b;7h653a345e85a71b3f
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;4;4279733;10daa12;0;0;0;3a2;d4c6;2h01;3h04279733;4h010daa12;5h01;7h653a345e85a71b3f
+    [traceparent] => 00-21e918bd3eb7c73f9c41df0691a5916b-653a345e85a71b3f-01
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 03046681-1f2d-4078-bf54-cc3e14b95c35
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 873fed2c131db3d278574903d586fcfd
+    [x-b3-spanid] => 78574903d586fcfd
+    [x-b3-sampled] => 1
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 988eb275-2b14-4e71-aace-df2117a4c398
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 23d0ae60c85b3aadd9bdb1e340b9f823
+    [x-b3-spanid] => d9bdb1e340b9f823
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 120739e2-7dc3-4a27-bf2f-ee8bbf2beaad
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => a0db9607cc87920048a78865cc383672
+    [x-b3-spanid] => 48a78865cc383672
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 5d88a118-696c-48d7-8f4e-5e02c1ba7b6e
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 5ed5a47e23b37fa8391114a750c354a3
+    [x-b3-spanid] => 391114a750c354a3
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379852","CheckoutRequestID":"ws_CO_09102024033356088717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ99FHMKK5"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009033351},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d379852
+                    [CheckoutRequestID] => ws_CO_09102024033356088717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ99FHMKK5
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009033351
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment recorded successfully

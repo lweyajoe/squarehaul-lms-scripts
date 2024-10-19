@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.portal.gwedhah.co.ke$ [NC]
+RewriteRule ^(.*)$ http://portal.gwedhah.co.ke/awstats/$1 [R=301,L]

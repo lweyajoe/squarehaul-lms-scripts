@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.omabracredit.gwedhah.co.ke$ [NC]
+RewriteRule ^(.*)$ http://omabracredit.gwedhah.co.ke/awstats/$1 [R=301,L]
