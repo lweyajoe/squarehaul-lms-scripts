@@ -1,0 +1,306 @@
+Raw Callback Data: 
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGR519G9G4",  
+    "TransAmount": 1000.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "LN000123",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254708374149",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGR519G9G4
+    [TransAmount] => 1000
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => LN000123
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254708374149
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGR519G9G4",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254708374149",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGR519G9G4
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254708374149
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: LGR519G9G4
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGR519G9G4",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254712752616",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGR519G9G4
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254712752616
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGR519G9t7",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254712752616",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGR519G9t7
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254712752616
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: LGR519G9t7
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGR519G9t7",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254712752616",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGR519G9t7
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254712752616
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGR819G9t7",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254712752616",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGR819G9t7
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254712752616
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: LGR819G9t7
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGR819G9t7",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254712752616",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGR819G9t7
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254712752616
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "LGy819G9t7",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254712752616",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => LGy819G9t7
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254712752616
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: LGy819G9t7
+Before formatting phone number
+Raw Callback Data: {
+    "TransactionType": "Pay Bill",  
+    "TransID": "kLGy819G9t7",  
+    "TransAmount": 10.00,  
+    "TransTime": "20231015154534",  
+    "BusinessShortCode": "123456",  
+    "BillRefNumber": "ln000004",  
+    "InvoiceNumber": "",  
+    "OrgAccountBalance": "5000",  
+    "ThirdPartyTransID": "",  
+    "MSISDN": "254712752616",  
+    "FirstName": "John",  
+    "MiddleName": "Doe",  
+    "LastName": "Smith"
+}
+
+Decoded JSON: Array
+(
+    [TransactionType] => Pay Bill
+    [TransID] => kLGy819G9t7
+    [TransAmount] => 10
+    [TransTime] => 20231015154534
+    [BusinessShortCode] => 123456
+    [BillRefNumber] => ln000004
+    [InvoiceNumber] => 
+    [OrgAccountBalance] => 5000
+    [ThirdPartyTransID] => 
+    [MSISDN] => 254712752616
+    [FirstName] => John
+    [MiddleName] => Doe
+    [LastName] => Smith
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: kLGy819G9t7
+Before formatting phone number
+Raw Callback Data: 

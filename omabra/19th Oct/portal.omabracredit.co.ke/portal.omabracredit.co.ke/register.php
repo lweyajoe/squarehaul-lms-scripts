@@ -1,0 +1,508 @@
+<?php
+
+include 'config.php';
+require_once("functions-tena.php");
+
+$clientExists = null;
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitize the input
+    $national_id = htmlspecialchars($_POST['national_id']);
+
+    // Query to check if the national ID already exists
+    $sql = "SELECT * FROM clients WHERE national_id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("s", $national_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        $clientExists = true;
+        // If the national ID exists, show message to sign in
+        $noted = "Client already exists, please sign in to your portal.";
+    } else {
+        $clientExists = false;
+        
+        // Check if required fields are present in POST
+        if (isset($_POST['first_name'], $_POST['last_name'], $_POST['email'])) {
+            $phone_number = htmlspecialchars($_POST['phone_number']);
+            // Validate phone number to ensure it starts with '254' and contains exactly 12 digits
+            if (!preg_match("/^254\d{9}$/", $phone_number)) {
+                $_SESSION['error'] = "The form you previously submitted has invalid phone number. Phone numbers must start with '254' and contain exactly 12 digits. Please validate ID and fill form again.";
+                header("Location: register.php"); // Redirect to the form page with error in session
+                exit(); // Stop further execution if phone number is invalid
+            }
+            // Collect form data
+            $firstName = htmlspecialchars($_POST['first_name']);
+            $lastName = htmlspecialchars($_POST['last_name']);
+            $email = htmlspecialchars($_POST['email']);
+            $county = htmlspecialchars($_POST['county']);
+            $town = htmlspecialchars($_POST['county']); // Corrected from county to town
+            $id_photo_front = htmlspecialchars($_FILES['id_photo_front']['name']);
+            $id_photo_back = htmlspecialchars($_FILES['id_photo_back']['name']);
+            $client_passport_photo = htmlspecialchars($_FILES['client_passport_photo']['name']);
+            $work_economic_activity = htmlspecialchars($_POST['work_economic_activity']);
+            $residence_nearest_building = htmlspecialchars($_POST['residence_nearest_building']);
+            $residence_nearest_road = htmlspecialchars($_POST['residence_nearest_building']); // Fixed incorrect assignment
+
+            // Upload file paths for ID photos
+            $id_photo_front_path = "uploads/" . basename($_FILES['id_photo_front']['name']);
+            $id_photo_back_path = "uploads/" . basename($_FILES['id_photo_back']['name']);
+            $client_passport_photo_path = "uploads/" . basename($_FILES['client_passport_photo']['name']);
+
+            // Upload files to server and check for errors
+            if (!move_uploaded_file($_FILES['id_photo_front']['tmp_name'], $id_photo_front_path) ||
+                !move_uploaded_file($_FILES['client_passport_photo']['tmp_name'], $client_passport_photo_path) ||
+                !move_uploaded_file($_FILES['id_photo_back']['tmp_name'], $id_photo_back_path)) {
+                $noted = "Error uploading files.";
+                exit();
+            }
+
+            // Insert into the clients table
+            $sql_insert = "INSERT INTO clients (first_name, last_name, email, phone_number, county, town_centre, national_id, id_photo_front, id_photo_back, client_passport_photo, work_economic_activity, residence_nearest_building, residence_nearest_road, date_of_onboarding, onboarding_officer, next_of_kin_name_number_1, next_of_kin_name_number_2, next_of_kin_name_number_3, next_of_kin_name_number_4, next_of_kin_name_number_5)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURDATE(), ?, ?, ?, ?, ?, ?)";
+
+            $stmt_insert = $conn->prepare($sql_insert);
+            $next_of_kin_1 = htmlspecialchars($_POST['next_of_kin_name-1']);
+            $next_of_kin_2 = htmlspecialchars($_POST['next_of_kin_name-2']);
+            $next_of_kin_3 = htmlspecialchars($_POST['next_of_kin_name-3']);
+            $next_of_kin_4 = htmlspecialchars($_POST['next_of_kin_name-4']);
+            $next_of_kin_5 = htmlspecialchars($_POST['next_of_kin_name-5']);
+
+            $onboarding_officer = "admin"; // Define the variable beforehand
+
+            $stmt_insert->bind_param(
+                "sssssssssssssssssss",
+                $firstName,
+                $lastName,
+                $email,
+                $phone_number,
+                $county,
+                $town,
+                $national_id,
+                $id_photo_front_path,
+                $id_photo_back_path,
+                $client_passport_photo_path,
+                $work_economic_activity,
+                $residence_nearest_building,
+                $residence_nearest_road,
+                $onboarding_officer,
+                $next_of_kin_1,
+                $next_of_kin_2,
+                $next_of_kin_3,
+                $next_of_kin_4,
+                $next_of_kin_5
+            );
+
+            if ($stmt_insert->execute()) {
+                // Retrieve the client_id generated by the trigger
+                $stmt_insert->close();
+                $result = $conn->query("SELECT client_id FROM clients WHERE email = '$email'");
+                if ($result && $result->num_rows > 0) {
+                    $row = $result->fetch_assoc();
+                    $generatedClientId = $row['client_id'];
+
+                    // Create user with role 'client' and random password
+                    $password = generatePassword();
+                    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
+                    $stmt = $conn->prepare("INSERT INTO users (first_name, last_name, file_no, email, password, role) VALUES (?, ?, ?, ?, ?, 'client')");
+                    $stmt->bind_param("sssss", $firstName, $lastName, $generatedClientId, $email, $hashedPassword);
+                    if ($stmt->execute()) {
+                        // Send email to client with details and temporary password
+                        $to = $email;
+                        $subject = "Welcome to Our Platform";
+                        $message = "Dear $firstName,\n\nThank you for registering. Below are your details:\n\nClient ID: $generatedClientId\nEmail: $email\nTemporary Password: $password\n\nLogin at: https://portal.omabracredit.co.ke\n\nBest regards,\nAdministrator.";
+                        sendEmail($to, $subject, $message);
+
+                        $noted = "Form submitted successfully!";
+
+                        // Insert notification for the new client
+                        $clientQuery = "SELECT user_id FROM users WHERE file_no = '$generatedClientId'";
+                        $clientResult = $conn->query($clientQuery);
+                        if ($clientResult && $clientResult->num_rows > 0) {
+                            $clientRow = $clientResult->fetch_assoc();
+                            $clientUserId = $clientRow['user_id'];
+                            $clientNotificationHeading = "Client Onboarding";
+                            $clientNotificationMessage = "Welcome, $firstName $lastName! Your account has been created. You can now apply for a loan.";
+                            addNotification($clientUserId, $clientNotificationHeading, $clientNotificationMessage);
+                        }
+                        
+                        // Insert notification for the current manager/admin who onboarded the client, if logged in
+                        if (isset($_SESSION['user_id'])) {
+                            $loggedInUserId = $_SESSION['user_id'];
+                            $managerNotificationHeading = "Client Onboarding";
+                            $managerNotificationMessage = "You have successfully onboarded $firstName $lastName. They can now apply for a loan.";
+                            addNotification($loggedInUserId, $managerNotificationHeading, $managerNotificationMessage);
+                        } else {
+                            // Log or handle the case where no user is logged in (optional)
+                            // Example: Log to a file or take some other action
+                            error_log("No logged-in user detected during client onboarding notification.");
+                        }
+
+                        // Insert notifications for all admin users
+                        $adminQuery = "SELECT user_id FROM users WHERE role = 'admin'";
+                        $adminResult = $conn->query($adminQuery);
+                        while ($admin = $adminResult->fetch_assoc()) {
+                            $adminUserId = $admin['user_id'];
+                            $adminNotificationHeading = "Client Onboarding";
+                            $adminNotificationMessage = "$firstName $lastName has been onboarded and can now apply for a loan.";
+                            addNotification($adminUserId, $adminNotificationHeading, $adminNotificationMessage);
+                        }
+                        header("Location: apply-loan-self.php"); 
+                    }
+                } else {
+                    $noted = "Error fetching client_id: " . $conn->error;
+                }
+            } else {
+                $noted = "Error: " . $stmt_insert->error;
+            }
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic Page Info -->
+    <meta charset="utf-8" />
+    <title>Omabra Credit - Loan Management System</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="vendors/styles/core.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/styles/style.css" />
+</head>
+<body class="login-page">
+<div class="login-header box-shadow">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="brand-logo">
+            <a href="">
+                <img src="vendors/images/omabra_logo.png" alt="" />
+            </a>
+        </div>
+        <div class="login-menu">
+            <ul>
+                <li><a href="login.php">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="login-wrap d-flex align-items-center flex-wrap justify-content-center">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="login-box bg-white box-shadow border-radius-10">
+                <div class="login-title">
+                    <h2 class="text-center text-primary">Omabra Credit - LMS</h2>
+                </div>
+
+                <!-- Show only the validate section on the first load -->
+                <?php if ($clientExists === null || $clientExists === false): ?>
+                    <form method="post" action="">
+                        <div class="input-group custom">
+                            <input
+                                type="text"
+                                class="form-control form-control-lg"
+                                placeholder="National ID"
+                                name="national_id"
+                                required
+                            />
+                            <div class="input-group-append custom">
+                                <span class="input-group-text">
+                                    <i class="icon-copy dw dw-user1"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="input-group mb-0">
+                                    <button class="btn btn-primary btn-lg btn-block" type="submit">Validate</button>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+        // Check if there's an error message stored in the session
+        if (isset($_SESSION['error'])) {
+            echo '<div class="error-message" style="color:red;">' . $_SESSION['error'] . '</div>';
+            unset($_SESSION['error']); // Clear error message after displaying it
+        }
+        ?>
+                    </form>
+                <?php endif; ?>
+            </div>
+        </div>
+        <?php 
+                    if (!empty($noted)) {
+                        echo '<p style="color:green;">' . htmlspecialchars($noted) . '</p>';
+                    }
+                    ?>
+
+        <!-- Show the full form only after validation fails -->
+        <?php if ($clientExists === false): ?>
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" enctype="multipart/form-data">
+                <div class="row align-items-center">
+                    <!-- Personal Info Section -->
+                    <div class="col-md-4 col-lg-4">
+                        <div class="login-box bg-white box-shadow border-radius-10">
+                            <h5 class="text-blue h4">Personal Info</h5>
+                            <!-- Other form fields here... -->
+                            <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="First Name"
+            name="first_name"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="Last Name"
+            name="last_name"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+    <div class="input-group custom">
+        <input
+            type="email"
+            class="form-control form-control-lg"
+            placeholder="Email"
+            name="email"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="Phone Number"
+            id="phone_number"
+            name="phone_number"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+        
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="County"
+            name="county"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+                        </div>
+                    </div>
+
+                    <!-- KYC Documents Section -->
+                    <div class="col-md-4 col-lg-4">
+                        <div class="login-box bg-white box-shadow border-radius-10">
+                            <h5 class="text-blue h4">KYC Documents</h5>
+                            <!-- Other form fields here... -->
+                            <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="ID/Passport Number"
+            name="national_id"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="file"
+            class="form-control-file form-control height-auto"
+            name="id_photo_front"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="ID Photo Front"
+            required
+        />
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="file"
+            class="form-control-file form-control height-auto"
+            name="id_photo_back"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="ID Photo Back"
+            required
+        />
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="file"
+            class="form-control-file form-control height-auto"
+            name="client_passport_photo"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Client Passport Photo"
+            required
+        />
+    </div>
+
+
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="Place of Work/Economic Activity"
+            name="work_economic_activity"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="Place of Residence (Nearest Building)"
+            name="residence_nearest_building"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+                        </div>
+                    </div>
+
+                    <!-- Bio Data Section -->
+                    <div class="col-md-4 col-lg-4">
+                        <div class="login-box bg-white box-shadow border-radius-10">
+                            <h5 class="text-blue h4">Bio Data</h5>
+                            <!-- Other form fields here... -->
+                            <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="CloseContactName1, PhoneNumber"
+            name="next_of_kin_name-1"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="CloseContactName2, PhoneNumber"
+            name="next_of_kin_name-2"
+            required
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="CloseContactName3, PhoneNumber"
+            name="next_of_kin_name-3"
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="CloseContactName4, PhoneNumber"
+            name="next_of_kin_name-4"
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="input-group custom">
+        <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="CloseContactName5, PhoneNumber"
+            name="next_of_kin_name-5"
+        />
+        <div class="input-group-append custom">
+            <span class="input-group-text">
+                <i class="icon-copy dw dw-user1"></i>
+            </span>
+        </div>
+    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="input-group mb-0">
+                            <button class="btn btn-primary btn-lg btn-block" type="submit">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        <?php endif; ?>
+    </div>
+</div>
+
+<!-- JS -->
+<script src="vendors/scripts/core.js"></script>
+<script src="vendors/scripts/script.min.js"></script>
+</body>
+</html>

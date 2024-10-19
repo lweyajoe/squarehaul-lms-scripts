@@ -1,0 +1,23 @@
+The initiator information is invalid.
+The initiator information is invalid.
+The initiator information is invalid.
+Request cancelled by user
+Request cancelled by user
+JSON Decode Error: Syntax error
+JSON Decode Error: Syntax error
+No matching loan_id found for the given MerchantRequestID and CheckoutRequestID
+No matching loan_id found for the given MerchantRequestID and CheckoutRequestID
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed
+CallbackMetadata is missing or malformed

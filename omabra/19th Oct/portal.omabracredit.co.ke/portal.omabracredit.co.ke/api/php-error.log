@@ -1,0 +1,1372 @@
+[30-Sep-2024 10:29:08 Europe/Berlin] PHP Warning:  Undefined array key "loan_id" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 8
+[30-Sep-2024 10:29:08 Europe/Berlin] PHP Warning:  Undefined array key "phone_number" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 9
+[30-Sep-2024 10:29:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getNextPaymentAmount() in C:\xampp\htdocs\working-copy-lms\api\stk_push.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 12
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  include_once(functions-tena.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 4
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'functions-tena.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 4
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  Undefined array key "loan_id" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 9
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Warning:  Undefined array key "phone_number" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 10
+[30-Sep-2024 10:33:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getNextPaymentAmount() in C:\xampp\htdocs\working-copy-lms\api\stk_push.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 13
+[30-Sep-2024 10:34:10 Europe/Berlin] PHP Warning:  Undefined array key "loan_id" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 9
+[30-Sep-2024 10:34:10 Europe/Berlin] PHP Warning:  Undefined array key "phone_number" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 10
+[30-Sep-2024 10:39:05 Europe/Berlin] PHP Warning:  Undefined array key "access_token" in C:\xampp\htdocs\working-copy-lms\api\MpesaAPI.php on line 18
+[30-Sep-2024 10:39:06 Europe/Berlin] PHP Warning:  Undefined array key "ResponseCode" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 24
+[30-Sep-2024 10:39:29 Europe/Berlin] PHP Warning:  Undefined array key "access_token" in C:\xampp\htdocs\working-copy-lms\api\MpesaAPI.php on line 18
+[30-Sep-2024 10:39:31 Europe/Berlin] PHP Warning:  Undefined array key "ResponseCode" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 24
+[30-Sep-2024 10:45:31 Europe/Berlin] Access Token Response: {
+            "access_token": "JjSUSSCpBdQ0qXglXk6nG4ixqv1y",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 10:45:32 Europe/Berlin] PHP Warning:  Undefined array key "ResponseCode" in C:\xampp\htdocs\working-copy-lms\api\stk_push.php on line 24
+[30-Sep-2024 10:51:41 Europe/Berlin] Access Token Response: {
+            "access_token": "ylhNkC6XY7h8SqAekbOjRrLp14aB",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 10:51:42 Europe/Berlin] STK Push Response: {"requestId":"dad6-4c34-8787-c8cb963a496d120090","errorCode":"404.001.01","errorMessage":"Resource not found"}
+[30-Sep-2024 10:58:50 Europe/Berlin] Access Token Response: {
+            "access_token": "AF86s0ARfDra7a8jaEKHr8UiFAFD",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 10:58:50 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDEwNTg1MA==","Timestamp":"20240930105850","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 10:58:51 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2755091","errorCode":"404.001.01","errorMessage":"Resource not found"}
+[30-Sep-2024 11:14:47 Europe/Berlin] Access Token Response: {
+            "access_token": "6KhEkU9jD6xYJZG70VZKd4lm1VYF",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 11:14:47 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDExMTQ0Nw==","Timestamp":"20240930111447","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 11:14:48 Europe/Berlin] STK Push Response: {"requestId":"94fc-460e-a970-797968bf6a85119818","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 11:23:33 Europe/Berlin] Access Token Response: {
+            "access_token": "s6hYhuoTcLfUCPMWsCnU2mg3Ya05",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 11:23:33 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDExMjMzMw==","Timestamp":"20240930112333","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 11:23:34 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2755480","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 11:31:14 Europe/Berlin] Access Token Response: {
+            "access_token": "GGO4z3ulZ0LjrSMkt0mObyAlbSdJ",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 11:31:14 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDExMzExNA==","Timestamp":"20240930113114","TransactionType":"CustomerPayBillOnline","Amount":"33378.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 11:31:15 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2755587","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 13:10:22 Europe/Berlin] Access Token Response: 
+[30-Sep-2024 13:10:22 Europe/Berlin] Failed to obtain access token: null
+[30-Sep-2024 13:10:22 Europe/Berlin] STK Push Response: {"ResponseCode":"1","Message":"Invalid Access Token"}
+[30-Sep-2024 13:46:18 Europe/Berlin] Access Token Response: {
+            "access_token": "aZ7lAERxaDjIeXaknyedfHoGX2ek",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 13:46:18 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDEzNDYxOA==","Timestamp":"20240930134618","TransactionType":"CustomerPayBillOnline","Amount":"12284.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 13:46:19 Europe/Berlin] STK Push Response: {"requestId":"94fc-460e-a970-797968bf6a85123272","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 13:46:45 Europe/Berlin] Access Token Response: {
+            "access_token": "Br7HA4Qi9lF97oEqOSL3RJCM2uA5",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 13:46:45 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDEzNDY0NQ==","Timestamp":"20240930134645","TransactionType":"CustomerPayBillOnline","Amount":"12284.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 13:46:46 Europe/Berlin] STK Push Response: {"requestId":"8ed5-4489-a67f-881890b925f2759965","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 14:03:46 Europe/Berlin] Access Token Response: {
+            "access_token": "sa6LoTk2PK3Bqz8K8Uiqo6l0PRSX",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:03:46 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MDM0Ng==","Timestamp":"20240930140346","TransactionType":"CustomerPayBillOnline","Amount":"12284.00","PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:03:47 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2757833","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid Amount"}
+[30-Sep-2024 14:16:17 Europe/Berlin] Access Token Response: {
+            "access_token": "CNGdGI31qd9GkFe0wKs7EE7wZGVe",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:16:17 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MTYxNw==","Timestamp":"20240930141617","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:16:18 Europe/Berlin] STK Push Response: {"requestId":"8ed5-4489-a67f-881890b925f2760469","errorCode":"500.001.1001","errorMessage":"Wrong credentials"}
+[30-Sep-2024 14:25:48 Europe/Berlin] Access Token Response: {
+            "access_token": "5gRkpBSw5IVJa7DPncgPOpeDusXi",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:25:48 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MjU0OA==","Timestamp":"20240930142548","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:25:49 Europe/Berlin] STK Push Response: {"requestId":"dad6-4c34-8787-c8cb963a496d124960","errorCode":"500.001.1001","errorMessage":"Wrong credentials"}
+[30-Sep-2024 14:26:59 Europe/Berlin] Access Token Response: {
+            "access_token": "NpXG35ekMoaPmAT6MfvHF5jgL8YS",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 14:26:59 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YjI3OWY5YWE5YmRiY2YxNThlOTdkZDcxYTQ2N2NkMmUwYzg5MzA1OWIxMGY3OGU2YjcyYWRhMWVkMmM5MTkyMDI0MDkzMDE0MjY1OQ==","Timestamp":"20240930142659","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":"254708374149","PartyB":"174379","PhoneNumber":"254708374149","CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 14:27:00 Europe/Berlin] STK Push Response: {"requestId":"3124-481d-b706-10bdd6fbc8e2758183","errorCode":"500.001.1001","errorMessage":"Wrong credentials"}
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_log.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 11
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 14:59:30 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_errors.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 40
+[30-Sep-2024 15:17:22 Europe/Berlin] Access Token Response: {
+            "access_token": "FSiAPBonS8C2lgkZnK5hrZjeB9BE",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 15:17:22 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTUxNzIy","Timestamp":"20240930151722","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 15:17:23 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d126141","CheckoutRequestID":"ws_CO_30092024161753990708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 15:20:40 Europe/Berlin] Access Token Response: {
+            "access_token": "LyAytwcgcAnZCJKY0Af5ZoYmCRbU",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 15:20:40 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTUyMDQw","Timestamp":"20240930152040","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 15:20:42 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d126247","CheckoutRequestID":"ws_CO_30092024162113056708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 15:43:15 Europe/Berlin] Access Token Response: {
+            "access_token": "MFiyrc2UVMBA4KkM4fAmN6zONphd",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 15:43:15 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTU0MzE1","Timestamp":"20240930154315","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000010","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 15:43:17 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d126708","CheckoutRequestID":"ws_CO_30092024164347935708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_log.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 11
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 15:43:18 Europe/Berlin] PHP Warning:  file_put_contents(api/stk_callback_errors.txt): Failed to open stream: No such file or directory in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 40
+[30-Sep-2024 16:50:24 Europe/Berlin] Access Token Response: {
+            "access_token": "TDp6H7lnAS3ZMIGUt6MthaedsZ0n",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 16:50:24 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTY1MDI0","Timestamp":"20240930165024","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 16:50:27 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760161","CheckoutRequestID":"ws_CO_30092024175034863708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:48 Europe/Berlin] Access Token Response: {
+            "access_token": "X5uOJ4tpVZHLoH4XFF2I0NM19u4N",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 16:50:48 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTY1MDQ4","Timestamp":"20240930165048","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 16:50:49 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2762525","CheckoutRequestID":"ws_CO_30092024175120832708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 16:50:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:15:57 Europe/Berlin] Access Token Response: {
+            "access_token": "5StDgcYJgHaSq7O8M82JVpaFR0JM",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:15:57 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcxNTU3","Timestamp":"20240930171557","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:15:58 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d128907","CheckoutRequestID":"ws_CO_30092024181629546708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 17:16:53 Europe/Berlin] Access Token Response: {
+            "access_token": "F6adEZG5FkymWM8yFfHVekUWobKP",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:16:53 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcxNjUz","Timestamp":"20240930171653","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254708374149,"PartyB":"174379","PhoneNumber":254708374149,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:16:55 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d128924","CheckoutRequestID":"ws_CO_30092024181703455708374149","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:18:48 Europe/Berlin] Access Token Response: {
+            "access_token": "8xSriaQ1YIwyErD8ecLkpF3E51n7",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:18:48 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcxODQ4","Timestamp":"20240930171848","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:18:50 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d128952","CheckoutRequestID":"ws_CO_30092024181858802717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:20:42 Europe/Berlin] Access Token Response: {
+            "access_token": "6bNUJ0EMAibYGLRChJGA0mlzYquq",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:20:42 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcyMDQy","Timestamp":"20240930172042","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:20:43 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2762930","CheckoutRequestID":"ws_CO_30092024182051901717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:21:35 Europe/Berlin] Access Token Response: {
+            "access_token": "GXHArvd4b27lJnLCu40dIPIdcpGT",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:21:35 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcyMTM1","Timestamp":"20240930172135","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:21:37 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2762934","CheckoutRequestID":"ws_CO_30092024182145395717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:29:31 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:29:33 Europe/Berlin] Access Token Response: {
+            "access_token": "Icy6ZcWbj3zSsrxy8PnnGhanom06",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:29:33 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTcyOTMz","Timestamp":"20240930172933","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:29:34 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d129201","CheckoutRequestID":"ws_CO_30092024182943148717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:40:42 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:40:42 Europe/Berlin] Access Token Response: {
+            "access_token": "vcENU7hAhVxQN9muCG6TlxY3aHYt",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:40:42 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0MDQy","Timestamp":"20240930174042","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:40:44 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760774","CheckoutRequestID":"ws_CO_30092024184115237717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:46:00 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:46:01 Europe/Berlin] Access Token Response: {
+            "access_token": "WSjU9AXrQWw8GICn8fx5VNH5uLN3",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:46:01 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0NjAx","Timestamp":"20240930174601","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:46:05 Europe/Berlin] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d129572","CheckoutRequestID":"ws_CO_30092024184634117717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:46:46 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 17:46:47 Europe/Berlin] Access Token Response: {
+            "access_token": "OX4iXbGxoQ4HOGPswmi0L70Pg3Kk",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:46:47 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0NjQ3","Timestamp":"20240930174647","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:46:50 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760833","CheckoutRequestID":"ws_CO_30092024184720300717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 17:47:31 Europe/Berlin] Converted Amount: 12284
+[30-Sep-2024 17:47:32 Europe/Berlin] Access Token Response: {
+            "access_token": "mG6AYUTZmdKbD5jQFxG8YM6r9xPv",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 17:47:32 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTc0NzMy","Timestamp":"20240930174732","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 17:47:33 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2763232","CheckoutRequestID":"ws_CO_30092024184804303717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 18:00:31 Europe/Berlin] Converted Amount: 33378
+[30-Sep-2024 18:00:32 Europe/Berlin] Access Token Response: {
+            "access_token": "CczmRbg0kDy8HhkmNys2b7ZA2jjG",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 18:00:32 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTgwMDMy","Timestamp":"20240930180032","TransactionType":"CustomerPayBillOnline","Amount":33378,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 18:00:39 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2760986","CheckoutRequestID":"ws_CO_30092024190105312717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:41 Europe/Berlin] Converted Amount: 12284
+[30-Sep-2024 18:01:42 Europe/Berlin] Access Token Response: {
+            "access_token": "1sRtYjQu0ZqZBEYn8jFeE8rZB2rA",
+            "expires_in": "3599"
+        }
+        
+[30-Sep-2024 18:01:42 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTMwMTgwMTQy","Timestamp":"20240930180142","TransactionType":"CustomerPayBillOnline","Amount":12284,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000009","TransactionDesc":"Loan Payment"}
+[30-Sep-2024 18:01:43 Europe/Berlin] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2763410","CheckoutRequestID":"ws_CO_30092024190214489717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 17
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 18
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 19
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Undefined array key "CallbackMetadata" in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[30-Sep-2024 18:01:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\working-copy-lms\api\callback.php on line 20
+[02-Oct-2024 12:16:13 Europe/Berlin] Converted Amount: 50067
+[02-Oct-2024 12:16:14 Europe/Berlin] Access Token Response: {
+            "access_token": "x9lLfUA16znDC5WiFBPiKYGigwEE",
+            "expires_in": "3599"
+        }
+        
+[02-Oct-2024 12:16:14 Europe/Berlin] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDAyMTIxNjE0","Timestamp":"20241002121614","TransactionType":"CustomerPayBillOnline","Amount":50067,"PartyA":254712752616,"PartyB":"174379","PhoneNumber":254712752616,"CallBackURL":"https:\/\/021f-41-90-35-195.ngrok-free.app\/working-copy-lms\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[02-Oct-2024 12:16:16 Europe/Berlin] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2794901","CheckoutRequestID":"ws_CO_02102024131630239712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[06-Oct-2024 21:07:19 Africa/Johannesburg] Converted Amount: 12000
+[06-Oct-2024 21:07:19 Africa/Johannesburg] Access Token Response: {
+            "access_token": "QsMzN614frlZhljY6kL3COAAFRmV",
+            "expires_in": "3599"
+        }
+        
+[06-Oct-2024 21:07:19 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA2MjEwNzE5","Timestamp":"20241006210719","TransactionType":"CustomerPayBillOnline","Amount":12000,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/omabracredit.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000006","TransactionDesc":"Loan Payment"}
+[06-Oct-2024 21:07:20 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2911684","CheckoutRequestID":"ws_CO_06102024220851336717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[07-Oct-2024 13:54:32 Africa/Johannesburg] Converted Amount: 7080
+[07-Oct-2024 13:54:32 Africa/Johannesburg] Access Token Response: {
+            "access_token": "rm9LyJE5zj6Ww4D2AwEoBx2wv9ET",
+            "expires_in": "3599"
+        }
+        
+[07-Oct-2024 13:54:32 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA3MTM1NDMy","Timestamp":"20241007135432","TransactionType":"CustomerPayBillOnline","Amount":7080,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/omabracredit.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000002","TransactionDesc":"Loan Payment"}
+[07-Oct-2024 13:54:33 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2940288","CheckoutRequestID":"ws_CO_07102024145606905717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[08-Oct-2024 20:14:19 Africa/Johannesburg] Converted Amount: 15
+[08-Oct-2024 20:14:20 Africa/Johannesburg] Access Token Response: {
+            "access_token": "Aqmx8IvAPkHAX2ziVpNbbMkKtoYj",
+            "expires_in": "3599"
+        }
+        
+[08-Oct-2024 20:14:20 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA4MjAxNDIw","Timestamp":"20241008201420","TransactionType":"CustomerPayBillOnline","Amount":15,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/omabracredit.gwedhah.co.ke\/api\/callback.php","AccountReference":"ln000011","TransactionDesc":"Loan Payment"}
+[08-Oct-2024 20:14:20 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2976308","CheckoutRequestID":"ws_CO_08102024211556663717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[08-Oct-2024 20:34:40 Africa/Johannesburg] Converted Amount: 15
+[08-Oct-2024 20:34:41 Africa/Johannesburg] Access Token Response: {
+            "access_token": "T5T7P6ebYuJ8m6KyE5CgNnOZ5GpG",
+            "expires_in": "3599"
+        }
+        
+[08-Oct-2024 20:34:41 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA4MjAzNDQx","Timestamp":"20241008203441","TransactionType":"CustomerPayBillOnline","Amount":15,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000011","TransactionDesc":"Loan Payment"}
+[08-Oct-2024 20:34:41 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2976803","CheckoutRequestID":"ws_CO_08102024213617828717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[08-Oct-2024 21:12:31 Africa/Johannesburg] Converted Amount: 2
+[08-Oct-2024 21:12:32 Africa/Johannesburg] Access Token Response: {
+            "access_token": "G3fiJwTZAYD0nIo7mCqhJyMAbGIL",
+            "expires_in": "3599"
+        }
+        
+[08-Oct-2024 21:12:32 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA4MjExMjMy","Timestamp":"20241008211232","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[08-Oct-2024 21:12:32 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2977491","CheckoutRequestID":"ws_CO_08102024221408587717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 00:05:32 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 00:05:33 Africa/Johannesburg] Access Token Response: {
+            "access_token": "aVcDJO03znitGm7KOQg1cy7ItvlF",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 00:05:33 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDAwNTMz","Timestamp":"20241009000533","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 00:05:34 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 00:05:53 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:05:53 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:05:53 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:05:54 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone_number' in 'field list' in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:40
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(40): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 40
+[09-Oct-2024 00:14:18 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 00:14:19 Africa/Johannesburg] Access Token Response: {
+            "access_token": "AAfyqPwof6kvIKpzSVIqssILeoNf",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 00:14:19 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDAxNDE5","Timestamp":"20241009001419","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 00:14:20 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 00:14:33 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 00:14:34 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 00:14:34 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 00:14:34 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'loan_id' cannot be null in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:45
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 45
+[09-Oct-2024 02:07:13 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:07:13 Africa/Johannesburg] Access Token Response: {
+            "access_token": "vmCwYmaBZ0G7SskPUuz332kIWqpc",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:07:13 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIwNzEz","Timestamp":"20241009020713","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:07:14 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379130","CheckoutRequestID":"ws_CO_09102024030917313717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Undefined array key "CheckoutMetadata" in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Trying to access array offset on value of type null in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Trying to access array offset on value of type null in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:07:40 Africa/Johannesburg] PHP Warning:  Trying to access array offset on value of type null in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 29
+[09-Oct-2024 02:17:29 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:17:29 Africa/Johannesburg] Access Token Response: {
+            "access_token": "TEvNrfUHq6JXNSxVGexBw1pmuNBk",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:17:29 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIxNzI5","Timestamp":"20241009021729","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:17:30 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2984346","CheckoutRequestID":"ws_CO_09102024031933738717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 02:26:31 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:26:31 Africa/Johannesburg] Access Token Response: {
+            "access_token": "OHjG0ShDNzTYexanuA4GzC5LMULM",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:26:31 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIyNjMx","Timestamp":"20241009022631","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:26:32 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[09-Oct-2024 02:26:47 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:26:47 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:26:48 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:26:48 Africa/Johannesburg] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php:61
+Stack trace:
+#0 /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/gwedhahc/domains/portal.omabracredit.co.ke/public_html/api/callback.php on line 61
+[09-Oct-2024 02:31:51 Africa/Johannesburg] Converted Amount: 2
+[09-Oct-2024 02:31:52 Africa/Johannesburg] Access Token Response: {
+            "access_token": "wvAQhqAr2VWdDld2Gqvb7iK51BZf",
+            "expires_in": "3599"
+        }
+        
+[09-Oct-2024 02:31:52 Africa/Johannesburg] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDA5MDIzMTUy","Timestamp":"20241009023152","TransactionType":"CustomerPayBillOnline","Amount":2,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000012","TransactionDesc":"Loan Payment"}
+[09-Oct-2024 02:31:52 Africa/Johannesburg] STK Push Response: {"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379852","CheckoutRequestID":"ws_CO_09102024033356088717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[12-Oct-2024 21:48:25 UTC] Converted Amount: 12
+[12-Oct-2024 21:48:27 UTC] Access Token Response: {
+            "access_token": "gXqGY7yNRUcnavBlyu9BXJSx0gbx",
+            "expires_in": "3599"
+        }
+        
+[12-Oct-2024 21:48:27 UTC] STK Push Payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDEyMjE0ODI3","Timestamp":"20241012214827","TransactionType":"CustomerPayBillOnline","Amount":12,"PartyA":254717158091,"PartyB":"174379","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000002","TransactionDesc":"Loan Payment"}
+[12-Oct-2024 21:48:28 UTC] STK Push Response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21072576","CheckoutRequestID":"ws_CO_13102024004828609717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[15-Oct-2024 11:16:16 UTC] Converted Amount: 36000
+[15-Oct-2024 11:16:21 UTC] Access Token Response: {
+            "access_token": "sBB8pAs3nbNsVoOjBib1Ld0ZiLSo",
+            "expires_in": "3599"
+        }
+        
+[15-Oct-2024 11:16:21 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNTExMTYyMQ==","Timestamp":"20241015111621","TransactionType":"CustomerPayBillOnline","Amount":36000,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[15-Oct-2024 11:16:23 UTC] STK Push Response: {"MerchantRequestID":"6304-4ad6-ac84-b19cc6b06d8966452305","CheckoutRequestID":"ws_CO_15102024141623411717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[15-Oct-2024 13:14:14 UTC] Converted Amount: 36000
+[15-Oct-2024 13:14:16 UTC] Access Token Response: {
+            "access_token": "F9ZOz69zeXbGXCnvvxlQoer5TGnn",
+            "expires_in": "3599"
+        }
+        
+[15-Oct-2024 13:14:16 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNTEzMTQxNg==","Timestamp":"20241015131416","TransactionType":"CustomerPayBillOnline","Amount":36000,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[15-Oct-2024 13:14:18 UTC] STK Push Response: {"MerchantRequestID":"0a83-4731-ac2e-58dccc54ee5986626255","CheckoutRequestID":"ws_CO_15102024161418628717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[15-Oct-2024 15:29:27 UTC] Converted Amount: 36000
+[15-Oct-2024 15:29:29 UTC] Access Token Response: {
+            "access_token": "zFqLLRYHF7kACXs2YVecYDPJmApy",
+            "expires_in": "3599"
+        }
+        
+[15-Oct-2024 15:29:29 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNTE1MjkyOQ==","Timestamp":"20241015152929","TransactionType":"CustomerPayBillOnline","Amount":36000,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[15-Oct-2024 15:29:32 UTC] STK Push Response: {"MerchantRequestID":"a5e9-4493-bf74-289c5402a31879473814","CheckoutRequestID":"ws_CO_15102024182932027717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[15-Oct-2024 15:56:12 UTC] Converted Amount: 5
+[15-Oct-2024 15:56:15 UTC] Access Token Response: {
+            "access_token": "Gdat26YSOgiZFWLGmZbC6wVEU1Mr",
+            "expires_in": "3599"
+        }
+        
+[15-Oct-2024 15:56:15 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNTE1NTYxNQ==","Timestamp":"20241015155615","TransactionType":"CustomerPayBillOnline","Amount":5,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[15-Oct-2024 15:56:17 UTC] STK Push Response: {"MerchantRequestID":"c687-4e11-bbe3-3e2fd41c991158778120","CheckoutRequestID":"ws_CO_15102024185617318717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[15-Oct-2024 17:53:25 UTC] Converted Amount: 5
+[15-Oct-2024 17:53:30 UTC] Access Token Response: {
+            "access_token": "6Ebp5ETNR04FcxVdtGv9VL0hc3qA",
+            "expires_in": "3599"
+        }
+        
+[15-Oct-2024 17:53:30 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNTE3NTMzMA==","Timestamp":"20241015175330","TransactionType":"CustomerPayBillOnline","Amount":5,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000002","TransactionDesc":"Loan Payment"}
+[15-Oct-2024 17:53:32 UTC] STK Push Response: {"MerchantRequestID":"38d5-4ca6-b9c9-0240a9781f7a62893361","CheckoutRequestID":"ws_CO_15102024205332430717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[15-Oct-2024 17:53:53 UTC] PHP Warning:  include_once(functions-tena.php): failed to open stream: No such file or directory in /home3/omabracr/portal.omabracredit.co.ke/api/callback.php on line 4
+[15-Oct-2024 17:53:53 UTC] PHP Warning:  include_once(): Failed opening 'functions-tena.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/omabracr/portal.omabracredit.co.ke/api/callback.php on line 4
+[15-Oct-2024 17:53:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getRequestedAmountByLoanId() in /home3/omabracr/portal.omabracredit.co.ke/api/callback.php:90
+Stack trace:
+#0 {main}
+  thrown in /home3/omabracr/portal.omabracredit.co.ke/api/callback.php on line 90
+[15-Oct-2024 17:55:57 UTC] Converted Amount: 0
+[17-Oct-2024 13:37:17 UTC] Converted Amount: 34200
+[17-Oct-2024 13:37:21 UTC] Access Token Response: {
+            "access_token": "IY6cvrGAOsrt8UoYVcVmuvMOfbTO",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 13:37:21 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzEzMzcyMQ==","Timestamp":"20241017133721","TransactionType":"CustomerPayBillOnline","Amount":34200,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000003","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 13:37:23 UTC] STK Push Response: {"MerchantRequestID":"feab-4d34-8ffb-457d02cd9bfc99868113","CheckoutRequestID":"ws_CO_17102024163723648712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 14:42:03 UTC] Converted Amount: 14
+[17-Oct-2024 14:42:05 UTC] Access Token Response: {
+            "access_token": "UJI5uaVeSjNFSA4dYTv5kaaPofjg",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:42:05 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NDIwNQ==","Timestamp":"20241017144205","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:42:08 UTC] STK Push Response: {"MerchantRequestID":"e1f1-482d-9538-d140c330be9b91173616","CheckoutRequestID":"ws_CO_17102024174208255712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 14:43:04 UTC] Converted Amount: 14
+[17-Oct-2024 14:43:06 UTC] Access Token Response: {
+            "access_token": "vdlQ6AhYOvwjJk32qU09fNVi4DOG",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:43:06 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NDMwNg==","Timestamp":"20241017144306","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:43:08 UTC] STK Push Response: {"requestId":"e1f1-482d-9538-d140c330be9b91175657","errorCode":"500.001.1001","errorMessage":"Unable to lock subscriber, a transaction is already in process for the current subscriber"}
+[17-Oct-2024 14:43:37 UTC] Converted Amount: 14
+[17-Oct-2024 14:43:39 UTC] Access Token Response: {
+            "access_token": "frVhvFdZISygdKrv43vUGCNdqsgI",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:43:39 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NDMzOQ==","Timestamp":"20241017144339","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:43:42 UTC] STK Push Response: {"MerchantRequestID":"38d5-4ca6-b9c9-0240a9781f7a67662702","CheckoutRequestID":"ws_CO_17102024174342178712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 14:49:17 UTC] Converted Amount: 14
+[17-Oct-2024 14:49:17 UTC] Converted Amount: 14
+[17-Oct-2024 14:49:19 UTC] Access Token Response: {
+            "access_token": "A3m3PQ6wRHjLhmAMvaXhe6sQi0Jw",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:49:19 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NDkxOQ==","Timestamp":"20241017144919","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:49:19 UTC] Access Token Response: {
+            "access_token": "fE0iAsK2MRlRCgJ08rrjxkznDhNG",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:49:19 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NDkxOQ==","Timestamp":"20241017144919","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:49:22 UTC] STK Push Response: {"MerchantRequestID":"dab3-4cb9-9110-99918efd35e372584263","CheckoutRequestID":"ws_CO_17102024174922035712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 14:49:23 UTC] STK Push Response: {"MerchantRequestID":"4f9d-4622-a0da-1c77977dad0c72654422","CheckoutRequestID":"ws_CO_17102024174922048712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 14:53:29 UTC] Converted Amount: 14
+[17-Oct-2024 14:53:31 UTC] Access Token Response: {
+            "access_token": "AaLorxAcIOsotsevOfw539ruVcHG",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:53:31 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NTMzMQ==","Timestamp":"20241017145331","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:53:33 UTC] STK Push Response: {"MerchantRequestID":"60e4-4f14-997e-f04c8c4f586d64162253","CheckoutRequestID":"ws_CO_17102024175333717712752616","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 14:53:33 UTC] Converted Amount: 14
+[17-Oct-2024 14:53:35 UTC] Access Token Response: {
+            "access_token": "y023k8gyWOq0mCFwdZplTGTnk6z4",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:53:35 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NTMzNQ==","Timestamp":"20241017145335","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254712752616,"PartyB":"4082073","PhoneNumber":254712752616,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:53:37 UTC] STK Push Response: {"requestId":"6771-4f62-b538-7b914275850587570009","errorCode":"500.001.1001","errorMessage":"Unable to lock subscriber, a transaction is already in process for the current subscriber"}
+[17-Oct-2024 14:53:59 UTC] Converted Amount: 14
+[17-Oct-2024 14:54:01 UTC] Access Token Response: {
+            "access_token": "TgA7qiwTvXgfzU7e5G7wvx1D63AA",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:54:01 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE0NTQwMQ==","Timestamp":"20241017145401","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 14:54:03 UTC] STK Push Response: {"MerchantRequestID":"6771-4f62-b538-7b914275850587571003","CheckoutRequestID":"ws_CO_17102024175403617717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 15:01:29 UTC] Converted Amount: 14
+[17-Oct-2024 15:01:31 UTC] Access Token Response: {
+            "access_token": "3fnWqhNunVtPqGTuGciJrGBqy2j6",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 15:01:31 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE1MDEzMQ==","Timestamp":"20241017150131","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 15:01:33 UTC] STK Push Response: {"MerchantRequestID":"dab3-4cb9-9110-99918efd35e372613688","CheckoutRequestID":"ws_CO_17102024180133813717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 15:01:46 UTC] Connection: opening to ssl://mail.omabracredit.co.ke:465, timeout=300, options=array()
+[17-Oct-2024 15:01:46 UTC] Connection: opened
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 220-cloud213.cloudwebhosting.com ESMTP Exim 4.97.1 #2 Thu, 17 Oct 2024 09:01:46 -0600 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: EHLO portal.omabracredit.co.ke
+
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 250-cloud213.cloudwebhosting.com Hello portal.omabracredit.co.ke [198.175.150.211]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: MAIL FROM:<notifications@omabracredit.co.ke>
+
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 250 OK
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: RCPT TO:<omachibrain5@gmail.com>
+
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 250 Accepted
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: DATA
+
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Date: Thu, 17 Oct 2024 15:01:46 +0000
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: To: omachibrain5@gmail.com
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: From: Omabra Credit <notifications@omabracredit.co.ke>
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Subject: Transaction Status: Received
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Message-ID: <5jtS2MLV5w0F2dtilY6GsOEcN9yEUCZzY2YJVXozHGs@portal.omabracredit.co.ke>
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Dear Client,
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Thank you for paying. Below are the details:
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Loan Amount:  100.00
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Received Amount: 14
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Reference: SJH0FKP4JM
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Balance: 126
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Best regards,
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: Loan Administrator
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: .
+
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 250 OK id=1t1S0V-0000000Bndd-0GL0
+
+[17-Oct-2024 15:01:46 UTC] CLIENT -> SERVER: QUIT
+
+[17-Oct-2024 15:01:46 UTC] SERVER -> CLIENT: 221 cloud213.cloudwebhosting.com closing connection
+
+[17-Oct-2024 15:01:46 UTC] Connection: closed
+[17-Oct-2024 15:18:30 UTC] Converted Amount: 14
+[17-Oct-2024 15:18:32 UTC] Access Token Response: {
+            "access_token": "BvBw1AtdsVxVIFrR04qnroGeqnZJ",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 15:18:32 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxNzE1MTgzMg==","Timestamp":"20241017151832","TransactionType":"CustomerPayBillOnline","Amount":14,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[17-Oct-2024 15:18:34 UTC] STK Push Response: {"MerchantRequestID":"dab3-4cb9-9110-99918efd35e372654152","CheckoutRequestID":"ws_CO_17102024181834777717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[17-Oct-2024 15:19:00 UTC] Connection: opening to ssl://mail.omabracredit.co.ke:465, timeout=300, options=array()
+[17-Oct-2024 15:19:00 UTC] Connection: opened
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 220-cloud213.cloudwebhosting.com ESMTP Exim 4.97.1 #2 Thu, 17 Oct 2024 09:19:00 -0600 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: EHLO portal.omabracredit.co.ke
+
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 250-cloud213.cloudwebhosting.com Hello portal.omabracredit.co.ke [198.175.150.211]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: MAIL FROM:<notifications@omabracredit.co.ke>
+
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 250 OK
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: RCPT TO:<trailbergdubai@gmail.com>
+
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 250 Accepted
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: DATA
+
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Date: Thu, 17 Oct 2024 15:19:00 +0000
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: To: trailbergdubai@gmail.com
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: From: Omabra Credit <notifications@omabracredit.co.ke>
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Subject: Transaction Status: Received
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Message-ID: <ytIa5zRX1itxpaR2LoGER3xZZwTzYFPKF8nEaFkF4@portal.omabracredit.co.ke>
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Dear Client,
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Thank you for paying. Below are the details:
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Loan Amount:  100.00
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Received Amount: 14
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Reference: SJH7FO07Z1
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Balance: 112
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Best regards,
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: Loan Administrator
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: .
+
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 250 OK id=1t1SHA-0000000CQ5Y-2321
+
+[17-Oct-2024 15:19:00 UTC] CLIENT -> SERVER: QUIT
+
+[17-Oct-2024 15:19:00 UTC] SERVER -> CLIENT: 221 cloud213.cloudwebhosting.com closing connection
+
+[17-Oct-2024 15:19:00 UTC] Connection: closed
+[17-Oct-2024 18:26:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php on line 84
+[17-Oct-2024 18:26:35 UTC] Invalid address:  (to): 
+[17-Oct-2024 18:26:35 UTC] PHPMailer Exception: Invalid address:  (to): 
+[17-Oct-2024 18:26:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function formatPhoneNumber() in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php:101
+Stack trace:
+#0 {main}
+  thrown in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php on line 101
+[17-Oct-2024 18:42:34 UTC] Connection: opening to ssl://mail.omabracredit.co.ke:465, timeout=300, options=array()
+[17-Oct-2024 18:42:34 UTC] Connection: opened
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 220-cloud213.cloudwebhosting.com ESMTP Exim 4.97.1 #2 Thu, 17 Oct 2024 12:42:34 -0600 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: EHLO portal.omabracredit.co.ke
+
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 250-cloud213.cloudwebhosting.com Hello portal.omabracredit.co.ke [198.175.150.211]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: MAIL FROM:<notifications@omabracredit.co.ke>
+
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 250 OK
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: RCPT TO:<omachibrain5@gmail.com>
+
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 250 Accepted
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: DATA
+
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Date: Thu, 17 Oct 2024 18:42:34 +0000
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: To: omachibrain5@gmail.com
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: From: Omabra Credit <notifications@omabracredit.co.ke>
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Subject: Transaction Status: Received
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Message-ID: <hxhEoSplVZrIgwnvqe0rIvna4x7mVxMuilIoKHPqM@portal.omabracredit.co.ke>
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Dear Brian Omachi,
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Thank you for paying. Below are the details:
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Loan Amount:  100.00
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Received Amount: 10
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Reference: LGR519G9t7
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Pending Balance: 92
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Payment Procedure:
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Option 1: Make automatic payments via MPESA by logging in to your client's portal at https://portal.omabracredit.co.ke/ and follow the instructions on your dashboard.
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Option 2: Make payments to MPESA PAYBILL, No. 4082073, Account: ln000004, and this should read Omabra Limited as the payee.
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Option 3: Make payments to Equity Bank at: Company: Omabra Limited Account Number: 0260272825664
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Best regards,
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: Loan Administrator
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: .
+
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 250 OK id=1t1VSA-00000002HZV-1sUN
+
+[17-Oct-2024 18:42:34 UTC] CLIENT -> SERVER: QUIT
+
+[17-Oct-2024 18:42:34 UTC] SERVER -> CLIENT: 221 cloud213.cloudwebhosting.com closing connection
+
+[17-Oct-2024 18:42:34 UTC] Connection: closed
+[17-Oct-2024 18:42:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function formatPhoneNumber() in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php:101
+Stack trace:
+#0 {main}
+  thrown in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php on line 101
+[17-Oct-2024 21:05:45 UTC] Connection: opening to ssl://mail.omabracredit.co.ke:465, timeout=300, options=array()
+[17-Oct-2024 21:05:45 UTC] Connection: opened
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 220-cloud213.cloudwebhosting.com ESMTP Exim 4.97.1 #2 Thu, 17 Oct 2024 15:05:45 -0600 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: EHLO portal.omabracredit.co.ke
+
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 250-cloud213.cloudwebhosting.com Hello portal.omabracredit.co.ke [198.175.150.211]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: MAIL FROM:<notifications@omabracredit.co.ke>
+
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 250 OK
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: RCPT TO:<omachibrain5@gmail.com>
+
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 250 Accepted
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: DATA
+
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Date: Thu, 17 Oct 2024 21:05:45 +0000
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: To: omachibrain5@gmail.com
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: From: Omabra Credit <notifications@omabracredit.co.ke>
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Subject: Transaction Status: Received
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Message-ID: <nBOeUagMeypgMMQaKUiJjxEgBtdksigt2XxAE2mIeI@portal.omabracredit.co.ke>
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Dear Brian Omachi,
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Thank you for paying. Below are the details:
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Loan Amount:  100.00
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Received Amount: 10
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Reference: LGR819G9t7
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Pending Balance: 82
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Payment Procedure:
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Option 1: Make automatic payments via MPESA by logging in to your client's portal at https://portal.omabracredit.co.ke/ and follow the instructions on your dashboard.
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Option 2: Make payments to MPESA PAYBILL, No. 4082073, Account: ln000004, and this should read Omabra Limited as the payee.
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Option 3: Make payments to Equity Bank at: Company: Omabra Limited Account Number: 0260272825664
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Best regards,
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: Loan Administrator
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: .
+
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 250 OK id=1t1Xgj-00000007D8Y-1p2z
+
+[17-Oct-2024 21:05:45 UTC] CLIENT -> SERVER: QUIT
+
+[17-Oct-2024 21:05:45 UTC] SERVER -> CLIENT: 221 cloud213.cloudwebhosting.com closing connection
+
+[17-Oct-2024 21:05:45 UTC] Connection: closed
+[17-Oct-2024 21:05:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function formatPhoneNumber() in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php:101
+Stack trace:
+#0 {main}
+  thrown in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php on line 101
+[17-Oct-2024 21:08:59 UTC] Connection: opening to ssl://mail.omabracredit.co.ke:465, timeout=300, options=array()
+[17-Oct-2024 21:08:59 UTC] Connection: opened
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 220-cloud213.cloudwebhosting.com ESMTP Exim 4.97.1 #2 Thu, 17 Oct 2024 15:08:59 -0600 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: EHLO portal.omabracredit.co.ke
+
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 250-cloud213.cloudwebhosting.com Hello portal.omabracredit.co.ke [198.175.150.211]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: [credentials hidden]
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: MAIL FROM:<notifications@omabracredit.co.ke>
+
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 250 OK
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: RCPT TO:<omachibrain5@gmail.com>
+
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 250 Accepted
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: DATA
+
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Date: Thu, 17 Oct 2024 21:08:59 +0000
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: To: omachibrain5@gmail.com
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: From: Omabra Credit <notifications@omabracredit.co.ke>
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Subject: Transaction Status: Received
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Message-ID: <QxMH5SHwkXzQ9VGzqNvJLVT4Tx9KiNPJYMnCNmSsl4@portal.omabracredit.co.ke>
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Dear Brian Omachi,
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Thank you for paying. Below are the details:
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Loan Amount:  100.00
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Received Amount: 10
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Reference: LGy819G9t7
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Pending Balance: 72
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Payment Procedure:
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Option 1: Make automatic payments via MPESA by logging in to your client's portal at https://portal.omabracredit.co.ke/ and follow the instructions on your dashboard.
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Option 2: Make payments to MPESA PAYBILL, No. 4082073, Account: ln000004, and this should read Omabra Limited as the payee.
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Option 3: Make payments to Equity Bank at: Company: Omabra Limited Account Number: 0260272825664
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Best regards,
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: Loan Administrator
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: 
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: .
+
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 250 OK id=1t1Xjr-00000007JNw-16ri
+
+[17-Oct-2024 21:08:59 UTC] CLIENT -> SERVER: QUIT
+
+[17-Oct-2024 21:08:59 UTC] SERVER -> CLIENT: 221 cloud213.cloudwebhosting.com closing connection
+
+[17-Oct-2024 21:08:59 UTC] Connection: closed
+[17-Oct-2024 21:08:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function formatPhoneNumber() in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php:108
+Stack trace:
+#0 {main}
+  thrown in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php on line 108
+[18-Oct-2024 00:24:07 UTC] Connection: opening to ssl://mail.omabracredit.co.ke:465, timeout=300, options=array()
+[18-Oct-2024 00:24:07 UTC] Connection: opened
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 220-cloud213.cloudwebhosting.com ESMTP Exim 4.97.1 #2 Thu, 17 Oct 2024 18:24:07 -0600 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: EHLO portal.omabracredit.co.ke
+
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 250-cloud213.cloudwebhosting.com Hello portal.omabracredit.co.ke [198.175.150.211]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: [credentials hidden]
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: [credentials hidden]
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: MAIL FROM:<notifications@omabracredit.co.ke>
+
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 250 OK
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: RCPT TO:<omachibrain5@gmail.com>
+
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 250 Accepted
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: DATA
+
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Date: Fri, 18 Oct 2024 00:24:07 +0000
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: To: omachibrain5@gmail.com
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: From: Omabra Credit <notifications@omabracredit.co.ke>
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Subject: Transaction Status: Received
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Message-ID: <Y73vguzOMq8rmj59V8zgGws1GjnlHZ4IOzhP3luQ@portal.omabracredit.co.ke>
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Dear Brian Omachi,
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Thank you for paying. Below are the details:
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Loan Amount:  100.00
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Received Amount: 10
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Reference: kLGy819G9t7
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Pending Balance: 62
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Payment Procedure:
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Option 1: Make automatic payments via MPESA by logging in to your client's portal at https://portal.omabracredit.co.ke/ and follow the instructions on your dashboard.
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Option 2: Make payments to MPESA PAYBILL, No. 4082073, Account: ln000004, and this should read Omabra Limited as the payee.
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Option 3: Make payments to Equity Bank at: Company: Omabra Limited Account Number: 0260272825664
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Best regards,
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: Loan Administrator
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: .
+
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 250 OK id=1t1amh-0000000FSRg-2Ulk
+
+[18-Oct-2024 00:24:07 UTC] CLIENT -> SERVER: QUIT
+
+[18-Oct-2024 00:24:07 UTC] SERVER -> CLIENT: 221 cloud213.cloudwebhosting.com closing connection
+
+[18-Oct-2024 00:24:07 UTC] Connection: closed
+[18-Oct-2024 00:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function formatPhoneNumber() in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php:108
+Stack trace:
+#0 {main}
+  thrown in /home3/omabracr/portal.omabracredit.co.ke/api/confirmation.php on line 108
+[18-Oct-2024 02:23:25 UTC] Converted Amount: 60
+[18-Oct-2024 02:23:27 UTC] Access Token Response: {
+            "access_token": "GuqRZnUQLAt1iGB3GwYBc9Z9HtHh",
+            "expires_in": "3599"
+        }
+        
+[18-Oct-2024 02:23:27 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxODAyMjMyNw==","Timestamp":"20241018022327","TransactionType":"CustomerPayBillOnline","Amount":60,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[18-Oct-2024 02:23:30 UTC] STK Push Response: {"MerchantRequestID":"e1f1-482d-9538-d140c330be9b92321974","CheckoutRequestID":"ws_CO_18102024052331219717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[18-Oct-2024 02:24:44 UTC] Converted Amount: 1
+[18-Oct-2024 02:24:47 UTC] Access Token Response: {
+            "access_token": "YoSqBEmlNYAl4WzQefpOdABGald8",
+            "expires_in": "3599"
+        }
+        
+[18-Oct-2024 02:24:47 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxODAyMjQ0Nw==","Timestamp":"20241018022447","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[18-Oct-2024 02:24:49 UTC] STK Push Response: {"MerchantRequestID":"c687-4e11-bbe3-3e2fd41c991165233638","CheckoutRequestID":"ws_CO_18102024052449849717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[18-Oct-2024 02:25:06 UTC] Connection: opening to ssl://mail.omabracredit.co.ke:465, timeout=300, options=array()
+[18-Oct-2024 02:25:06 UTC] Connection: opened
+[18-Oct-2024 02:25:06 UTC] SERVER -> CLIENT: 220-cloud213.cloudwebhosting.com ESMTP Exim 4.97.1 #2 Thu, 17 Oct 2024 20:25:06 -0600 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[18-Oct-2024 02:25:06 UTC] CLIENT -> SERVER: EHLO portal.omabracredit.co.ke
+
+[18-Oct-2024 02:25:06 UTC] SERVER -> CLIENT: 250-cloud213.cloudwebhosting.com Hello portal.omabracredit.co.ke [198.175.150.211]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[18-Oct-2024 02:25:06 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: [credentials hidden]
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: [credentials hidden]
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: MAIL FROM:<notifications@omabracredit.co.ke>
+
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 250 OK
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: RCPT TO:<omachibrain5@gmail.com>
+
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 250 Accepted
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: DATA
+
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Date: Fri, 18 Oct 2024 02:25:06 +0000
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: To: omachibrain5@gmail.com
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: From: Omabra Credit <notifications@omabracredit.co.ke>
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Subject: Transaction Status: Received
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Message-ID: <fDTROwS5liPcQKbFtvVkgHO1rTHKe17S3L21FDMU@portal.omabracredit.co.ke>
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Dear Brian Omachi,
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Thank you for paying. Below are the details:
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Loan Amount:  100.00
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Received Amount: 1
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Reference: SJI5H3LYC3
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Pending Balance: 61
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Payment Procedure:
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Option 1: Make automatic payments via MPESA by logging in to your client's portal at https://portal.omabracredit.co.ke/ and follow the instructions on your dashboard.
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Option 2: Make payments to MPESA PAYBILL, No. 4082073, Account: ln000004, and this should read Omabra Limited as the payee.
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Option 3: Make payments to Equity Bank at: Company: Omabra Limited Account Number: 0260272825664
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Best regards,
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: Loan Administrator
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: 
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: .
+
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 250 OK id=1t1cfq-00000003cPn-2BKA
+
+[18-Oct-2024 02:25:10 UTC] CLIENT -> SERVER: QUIT
+
+[18-Oct-2024 02:25:10 UTC] SERVER -> CLIENT: 221 cloud213.cloudwebhosting.com closing connection
+
+[18-Oct-2024 02:25:10 UTC] Connection: closed
+[18-Oct-2024 02:25:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function formatPhoneNumber() in /home3/omabracr/portal.omabracredit.co.ke/api/callback.php:113
+Stack trace:
+#0 {main}
+  thrown in /home3/omabracr/portal.omabracredit.co.ke/api/callback.php on line 113
+[18-Oct-2024 02:37:38 UTC] Converted Amount: 1
+[18-Oct-2024 02:37:40 UTC] Access Token Response: {
+            "access_token": "yp4uE4Xh9QKHGPExaB7NfpZGhEIa",
+            "expires_in": "3599"
+        }
+        
+[18-Oct-2024 02:37:40 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxODAyMzc0MA==","Timestamp":"20241018023740","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000003","TransactionDesc":"Loan Payment"}
+[18-Oct-2024 02:37:42 UTC] STK Push Response: {"MerchantRequestID":"a5e9-4493-bf74-289c5402a31885285757","CheckoutRequestID":"ws_CO_18102024053743283717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[18-Oct-2024 02:54:53 UTC] Converted Amount: 10
+[18-Oct-2024 02:55:09 UTC] Converted Amount: 10
+[18-Oct-2024 02:58:34 UTC] Converted Amount: 10
+[18-Oct-2024 03:02:40 UTC] Converted Amount: 14
+[18-Oct-2024 03:13:09 UTC] Converted Amount: 10
+[18-Oct-2024 03:13:11 UTC] Access Token Response: {
+            "access_token": "hWGgloOHdujxj2cSjnwMAJalFIAy",
+            "expires_in": "3599"
+        }
+        
+[18-Oct-2024 03:13:11 UTC] STK Push Payload: {"BusinessShortCode":"4082073","Password":"NDA4MjA3Mzc4NDA5NDI1ZmMwMGUzZTgwNmViNzg0MGQwMGYzZTJkMjEyMzQ4ZjE4NWFiYjY4MmExNjVlMTUxNTRjYTNmOWQyMDI0MTAxODAzMTMxMQ==","Timestamp":"20241018031311","TransactionType":"CustomerPayBillOnline","Amount":10,"PartyA":254717158091,"PartyB":"4082073","PhoneNumber":254717158091,"CallBackURL":"https:\/\/portal.omabracredit.co.ke\/api\/callback.php","AccountReference":"ln000004","TransactionDesc":"Loan Payment"}
+[18-Oct-2024 03:13:14 UTC] STK Push Response: {"MerchantRequestID":"0a83-4731-ac2e-58dccc54ee5992670224","CheckoutRequestID":"ws_CO_18102024061314667717158091","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}

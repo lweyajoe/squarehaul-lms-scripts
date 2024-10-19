@@ -1,0 +1,48 @@
+[16-Oct-2024 19:12:03 UTC] Access Token Response: {
+            "access_token": "eaW3PfATK556MddgnXgRGFG4Ikbw",
+            "expires_in": "3599"
+        }
+        
+[16-Oct-2024 19:12:03 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php"}
+[16-Oct-2024 19:20:52 UTC] Access Token Response: {
+            "access_token": "VjTM2uGECLhZLVVDp9TlXxeYdfP8",
+            "expires_in": "3599"
+        }
+        
+[16-Oct-2024 19:20:52 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php","ValidationURL":null}
+[16-Oct-2024 21:04:26 UTC] Access Token Response: {
+            "access_token": "78ozcLz66VvcPreAkT6eO6svXSkp",
+            "expires_in": "3599"
+        }
+        
+[16-Oct-2024 21:04:26 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php","ValidationURL":null}
+[17-Oct-2024 13:54:39 UTC] Access Token Response: {
+            "access_token": "IbvAM2jv2YrNEzYLamEJKebJtbxo",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 13:54:39 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php","ValidationURL":null}
+[17-Oct-2024 14:29:02 UTC] Access Token Response: {
+            "access_token": "D5n7jG2NjKVOzsGZrylMWF10gk1E",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 14:29:02 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php","ValidationURL":"https:\/\/portal.omabracredit.co.ke\/api\/validation.php"}
+[17-Oct-2024 21:24:34 UTC] Access Token Response: {
+            "access_token": "tqR8fRHuoiBUupKOwGpRyFPdMmPF",
+            "expires_in": "3599"
+        }
+        
+[17-Oct-2024 21:24:34 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php","ValidationURL":"https:\/\/portal.omabracredit.co.ke\/api\/validation.php"}
+[18-Oct-2024 00:29:48 UTC] Access Token Response: {
+            "access_token": "uE3US3xLDtZXew10MhVXc3ao6ZUW",
+            "expires_in": "3599"
+        }
+        
+[18-Oct-2024 00:29:48 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php","ValidationURL":"https:\/\/portal.omabracredit.co.ke\/api\/validation.php"}
+[18-Oct-2024 00:32:57 UTC] Access Token Response: {
+            "access_token": "frag3AXYu9YwxmfQNmG5QfqaGOyb",
+            "expires_in": "3599"
+        }
+        
+[18-Oct-2024 00:32:57 UTC] Register Confirmation URL Payload: {"ShortCode":"4082073","ResponseType":"Completed","ConfirmationURL":"https:\/\/portal.omabracredit.co.ke\/api\/confirmation.php","ValidationURL":"https:\/\/portal.omabracredit.co.ke\/api\/validation.php"}

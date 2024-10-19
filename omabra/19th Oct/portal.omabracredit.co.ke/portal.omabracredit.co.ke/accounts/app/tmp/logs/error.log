@@ -1,0 +1,218 @@
+2024-10-01 09:06:34 Error: [ParseError] syntax error, unexpected identifier "s", expecting ")"
+Request URL: /omabracredit/accounts/wzsetups/index
+Stack Trace:
+#0 [internal function]: App::load('WzsetupsControl...')
+#1 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(266): class_exists('WzsetupsControl...')
+#2 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-10-01 10:49:26 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /omabracredit/accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-02 01:11:08 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /omabracredit/accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-02 02:05:44 Error: [MissingTableException] Table sqwzusers for model Wzuser was not found in datasource wz.
+Exception Attributes: array (
+  'table' => 'sqwzusers',
+  'class' => 'Wzuser',
+  'ds' => 'wz',
+)
+Request URL: /omabracredit/accounts/wzaccounts/add
+Stack Trace:
+#0 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3686): Model->setSource('wzusers')
+#1 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#2 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3025): Model->_readDataSource('list', Array)
+#3 C:\xampp\htdocs\omabracredit\accounts\app\Plugin\Webzash\Controller\WzaccountsController.php(473): Model->find('list', Array)
+#4 [internal function]: WzaccountsController->add()
+#5 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(WzaccountsController), Array)
+#6 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(WzaccountsController), Object(CakeRequest))
+#8 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2024-10-02 02:06:23 Error: [MissingTableException] Table sqwzusers for model Wzuser was not found in datasource wz.
+Exception Attributes: array (
+  'table' => 'sqwzusers',
+  'class' => 'Wzuser',
+  'ds' => 'wz',
+)
+Request URL: /omabracredit/accounts/wzusers/account
+Stack Trace:
+#0 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3686): Model->setSource('wzusers')
+#1 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(834): Model->getDataSource()
+#2 C:\xampp\htdocs\omabracredit\accounts\app\Plugin\Webzash\Controller\WzusersController.php(1267): Model->__call('findById', Array)
+#3 [internal function]: WzusersController->account()
+#4 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(WzusersController), Array)
+#5 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(WzusersController), Object(CakeRequest))
+#7 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-10-02 02:10:09 Error: [MissingTableException] Table sqwzusers for model Wzuser was not found in datasource wz.
+Exception Attributes: array (
+  'table' => 'sqwzusers',
+  'class' => 'Wzuser',
+  'ds' => 'wz',
+)
+Request URL: /omabracredit/accounts/wzaccounts/add
+Stack Trace:
+#0 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3686): Model->setSource('wzusers')
+#1 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#2 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3025): Model->_readDataSource('list', Array)
+#3 C:\xampp\htdocs\omabracredit\accounts\app\Plugin\Webzash\Controller\WzaccountsController.php(473): Model->find('list', Array)
+#4 [internal function]: WzaccountsController->add()
+#5 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(WzaccountsController), Array)
+#6 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(WzaccountsController), Object(CakeRequest))
+#8 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2024-10-02 02:10:14 Error: [MissingTableException] Table sqwzaccounts for model Wzaccount was not found in datasource wz.
+Exception Attributes: array (
+  'table' => 'sqwzaccounts',
+  'class' => 'Wzaccount',
+  'ds' => 'wz',
+)
+Request URL: /omabracredit/accounts/wzaccounts/create
+Stack Trace:
+#0 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(3686): Model->setSource('wzaccounts')
+#1 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Model\Model.php(1394): Model->getDataSource()
+#2 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\View\Helper\FormHelper.php(480): FormHelper->_introspectModel('Wzaccount', 'fields')
+#4 C:\xampp\htdocs\omabracredit\accounts\app\Plugin\Webzash\View\Wzaccounts\create.ctp(69): FormHelper->create('Wzaccount', Array)
+#5 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\omabracredit\accounts\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(WzaccountsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-10-02 03:40:58 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /omabracredit/accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\omabracredit\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-06 07:39:20 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/accounts/app/webroot/index.php(115): Dispatcher->dispatch()
+#1 {main}
+2024-10-08 09:29:21 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home/gwedhahc/domains/portal.gwedhah.co.ke/public_html/accounts/app/webroot/index.php(115): Dispatcher->dispatch()
+#1 {main}
+2024-10-12 17:47:23 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /domains/portal.omabracredit.co.ke/public_html/accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\domains\portal.omabracredit.co.ke\public_html\accounts\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-12 22:04:29 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-13 17:52:03 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-14 06:46:56 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-14 07:19:04 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-14 09:17:34 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-15 17:25:49 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-16 12:14:45 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-17 09:06:36 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-10-19 08:27:00 Error: [MissingControllerException] Controller class WebzashController could not be found.
+Exception Attributes: array (
+  'class' => 'WebzashController',
+  'plugin' => 'Webzash',
+)
+Request URL: /accounts/webzash/img/favicon.ico
+Stack Trace:
+#0 /home3/omabracr/portal.omabracredit.co.ke/accounts/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

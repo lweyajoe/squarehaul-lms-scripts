@@ -1,0 +1,2195 @@
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2760161
+                    [CheckoutRequestID] => ws_CO_30092024175034863708374149
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2762525
+                    [CheckoutRequestID] => ws_CO_30092024175120832708374149
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d128907
+                    [CheckoutRequestID] => ws_CO_30092024181629546708374149
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2760986
+                    [CheckoutRequestID] => ws_CO_30092024190105312717158091
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2763410
+                    [CheckoutRequestID] => ws_CO_30092024190214489717158091
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.omabracredit.co.ke
+    [X-Forwarded-For] => 54.86.50.139
+    [Connection] => close
+    [Content-Length] => 549
+    [Content-Type] => application/json
+    [User-Agent] => PostmanRuntime/7.42.0
+    [Accept] => */*
+    [Cache-Control] => no-cache
+    [Postman-Token] => 427881ce-f1a4-427c-b511-590b283b4877
+    [Accept-Encoding] => gzip, deflate, br
+)
+
+Raw Callback Data: {
+
+  "Body": {
+
+    "stkCallback": {
+
+      "MerchantRequestID": "XXXXX",
+
+      "CheckoutRequestID": "XXXXX",
+
+      "ResultCode": 0,
+
+      "ResultDesc": "The service request is processed successfully.",
+
+      "CallbackMetadata": {
+
+        "Item": [
+
+          {"Name": "Amount", "Value": 10},
+
+          {"Name": "MpesaReceiptNumber", "Value": "ABC1234XYZ"},
+
+          {"Name": "Balance"},
+portal.omabracredit.co.ke
+          {"Name": "TransactionDate", "Value": 20241008},
+
+          {"Name": "PhoneNumber", "Value": 2547XXXXXXXX}
+
+        ]
+
+      }
+
+    }
+
+  }
+
+}
+
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 54.86.50.139
+    [Connection] => close
+    [Content-Length] => 549
+    [Content-Type] => application/json
+    [User-Agent] => PostmanRuntime/7.42.0
+    [Accept] => */*
+    [Cache-Control] => no-cache
+    [Postman-Token] => 3507c2f8-c2ea-4742-9b25-175e7be3694d
+    [Accept-Encoding] => gzip, deflate, br
+    [Cookie] => PHPSESSID=hrb3s9g1ib5kfi6kalc84gqtov
+)
+
+Raw Callback Data: {
+
+  "Body": {
+
+    "stkCallbaportal.omabracredit.co.ke
+
+      "MerchantRequestID": "XXXXX",
+
+      "CheckoutRequestID": "XXXXX",
+
+      "ResultCode": 0,
+
+      "ResultDesc": "The service request is processed successfully.",
+
+      "CallbackMetadata": {
+
+        "Item": [
+
+          {"Name": "Amount", "Value": 10},
+
+          {"Name": "MpesaReceiptNumber", "Value": "ABC1234XYZ"},
+
+          {"Name": "Balance"},
+
+          {"Name": "TransactionDate", "Value": 20241008},
+
+          {"Name": "PhoneNumber", "Value": 2547XXXXXXXX}
+
+        ]
+
+      }
+
+    }
+
+  }
+
+}
+
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 0403144c-b9e7-4dba-8f7f-e858b3016ab4
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => b527794aecc83050cabca754858265f9
+    [x-b3-spanid] => cabca754858265f9
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.213.44
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 6235b8d3-dfca-4fd2-9841-c6366bb0d9a5
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 291d2e2b10d854bc39aae52df4aa9425
+    [x-b3-spanid] => 39aae52df4aa9425
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 2a33af6a-9ddf-4e19-bd4c-386e4a57d0a9
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 010a19826b608483b8751844a28af84c
+    [x-b3-spanid] => b8751844a28af84c
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 03f404ee-4802-423c-ba85-ff22629dfbdf
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 23473dc88e6ee0359b33637e1c66dce6
+    [x-b3-spanid] => 9b33637e1c66dce6
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2981037","CheckoutRequestID":"ws_CO_09102024010736933717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ98FG9R5Q"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009010731},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2981037
+                    [CheckoutRequestID] => ws_CO_09102024010736933717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ98FG9R5Q
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009010731
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 5e5e4502-060d-4837-bef0-e1aa1a4285f0
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;8;2140750741;38417123;0;643789619;257;8347;2h01;3h7f994395;4h024a32e3;5h01;6ha69c337d3a5ff7130cd12f9c8c7c375e;7h916c7bea70597ebf
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;8;7f994395;24a32e3;0;0;0;101;4615;2h01;3h7f994395;4h024a32e3;5h01;7h916c7bea70597ebf
+    [traceparent] => 00-a69c337d3a5ff7130cd12f9c8c7c375e-916c7bea70597ebf-01
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.213.44
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 36c61a89-e732-449d-a6fd-be8c0265b735
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => d11c48bc49ba6b18d144a5b8b7e06aa5
+    [x-b3-spanid] => d144a5b8b7e06aa5
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.213.44
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 1b21023e-e7de-4814-8f47-6f1b50f54b00
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;5;-512596723;17965731;-2147483648;643789619;292;e898;2h01;3he172650d;4h011222a3;5h01;6h2b7a74433ef8eea7e28bfe9147b40e94;7h45e742e1ba9fcbdc
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;5;e172650d;11222a3;0;1;0;124;1f5a;2h01;3he172650d;4h011222a3;5h01;7h45e742e1ba9fcbdc
+    [traceparent] => 00-2b7a74433ef8eea7e28bfe9147b40e94-45e742e1ba9fcbdc-00
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 2fc3e2fa-22f5-4304-b116-2fea587cf221
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 997612a457dc00071d4334e524a0df99
+    [x-b3-spanid] => 1d4334e524a0df99
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d375508","CheckoutRequestID":"ws_CO_09102024011622905717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ96FGD71O"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009011612},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d375508
+                    [CheckoutRequestID] => ws_CO_09102024011622905717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ96FGD71O
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009011612
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.212.127
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 517efd4f-e949-4ffc-8eaf-932340c498bc
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 7fdaafe81471057197f689a59d5fe0f2
+    [x-b3-spanid] => 97f689a59d5fe0f2
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379130","CheckoutRequestID":"ws_CO_09102024030917313717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ97FHEX0X"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009030919},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d379130
+                    [CheckoutRequestID] => ws_CO_09102024030917313717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ97FHEX0X
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009030919
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => aa84b95f-fb13-4414-9a02-fe936e4d8420
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => f90bf937469435d48558c0c09c6bd8f4
+    [x-b3-spanid] => 8558c0c09c6bd8f4
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2984346","CheckoutRequestID":"ws_CO_09102024031933738717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ97FHIAM5"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009031926},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e2984346
+                    [CheckoutRequestID] => ws_CO_09102024031933738717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ97FHIAM5
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009031926
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.184.20.60, 196.201.212.127
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => a3bdb079-e29d-4754-8d59-1c45c48b31cb
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;4;69703475;17672722;0;643789619;930;201c;2h01;3h04279733;4h010daa12;5h01;6h21e918bd3eb7c73f9c41df0691a5916b;7h653a345e85a71b3f
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;4;4279733;10daa12;0;0;0;3a2;d4c6;2h01;3h04279733;4h010daa12;5h01;7h653a345e85a71b3f
+    [traceparent] => 00-21e918bd3eb7c73f9c41df0691a5916b-653a345e85a71b3f-01
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 03046681-1f2d-4078-bf54-cc3e14b95c35
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 873fed2c131db3d278574903d586fcfd
+    [x-b3-spanid] => 78574903d586fcfd
+    [x-b3-sampled] => 1
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 988eb275-2b14-4e71-aace-df2117a4c398
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 23d0ae60c85b3aadd9bdb1e340b9f823
+    [x-b3-spanid] => d9bdb1e340b9f823
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.206
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 120739e2-7dc3-4a27-bf2f-ee8bbf2beaad
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => a0db9607cc87920048a78865cc383672
+    [x-b3-spanid] => 48a78865cc383672
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"8ed5-4489-a67f-881890b925f2987060","CheckoutRequestID":"ws_CO_09102024032835370717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ90FHKYTA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009032825},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2987060
+                    [CheckoutRequestID] => ws_CO_09102024032835370717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+              portal.omabracredit.co.ke      )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ90FHKYTA
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009032825
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [X-Accel-Internal] => /nginx_static_files
+    [Host] => portal.gwedhah.co.ke
+    [X-Forwarded-For] => 10.197.136.63, 196.201.214.200
+    [Connection] => close
+    [Content-Length] => 439
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-forwarded-proto] => https
+    [x-request-id] => 5d88a118-696c-48d7-8f4e-5e02c1ba7b6e
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 5ed5a47e23b37fa8391114a750c354a3
+    [x-b3-spanid] => 391114a750c354a3
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dad6-4c34-8787-c8cb963a496d379852","CheckoutRequestID":"ws_CO_09102024033356088717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":2.00},{"Name":"MpesaReceiptNumber","Value":"SJ99FHMKK5"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241009033351},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dad6-4c34-8787-c8cb963a496d379852
+                    [CheckoutRequestID] => ws_CO_09102024033356088717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 2
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJ99FHMKK5
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241009033351
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment recorded successfully
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 205
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => 20054f4d-9228-4650-aabe-f9820ed9c9c4
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 5a5354f26685702b141b03ea47917787
+    [x-b3-spanid] => 141b03ea47917787
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21072576","CheckoutRequestID":"ws_CO_13102024004828609717158091","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3124-481d-b706-10bdd6fbc8e21072576
+                    [CheckoutRequestID] => ws_CO_13102024004828609717158091
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 198
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 35a246e0-8dfb-4574-915d-5174b5326743
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;433575104;0;-2;643789619;1;7191;2h01;3h19d7d4c0;4h00;7h0d9780c871e01bbb
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"6304-4ad6-ac84-b19cc6b06d8966452305","CheckoutRequestID":"ws_CO_15102024141623411717158091","ResultCode":1032,"ResultDesc":"Request cancelled by user"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 6304-4ad6-ac84-b19cc6b06d8966452305
+                    [CheckoutRequestID] => ws_CO_15102024141623411717158091
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 198
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 23460a3a-ed08-49d8-b854-972a055007cf
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;1883872049;0;-2;643789619;1;aa5d;2h01;3h70499b31;4h00;7h73aaf327c119d895
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"0a83-4731-ac2e-58dccc54ee5986626255","CheckoutRequestID":"ws_CO_15102024161418628717158091","ResultCode":1032,"ResultDesc":"Request cancelled by user"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 0a83-4731-ac2e-58dccc54ee5986626255
+                    [CheckoutRequestID] => ws_CO_15102024161418628717158091
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 464a1d0e-42a5-40c0-b741-4e5e24687538
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;1674099906;0;-2;643789619;591;93df;2h01;3h63c8bcc2;4h00;6h4f1da296416a50d21eea32e870c77a50;7hb5091da06b9b295b
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;0;63c8bcc2;0;7fffffe;1;f;24f;3bcc;2h01;3h63c8bcc2;4h00;7hb5091da06b9b295b
+    [traceparent] => 00-4f1da296416a50d21eea32e870c77a50-b5091da06b9b295b-00
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"a5e9-4493-bf74-289c5402a31879473814","CheckoutRequestID":"ws_CO_15102024182932027717158091","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => a5e9-4493-bf74-289c5402a31879473814
+                    [CheckoutRequestID] => ws_CO_15102024182932027717158091
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 441
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 7ebab062-6503-410d-b49d-7630e567ff87
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;4;69703475;27257572;0;643789619;2018;c92e;2h04;3h876bb2c0;4h0970e374;5h01;6h54127dd8b4ca834a254d32fe8dd8b0b3;7h3994f9929d4e8cda
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;4;4279733;19feae4;0;0;0;7e2;b729;2h04;3h876bb2c0;4h0970e374;5h01;7h3994f9929d4e8cda
+    [traceparent] => 00-54127dd8b4ca834a254d32fe8dd8b0b3-3994f9929d4e8cda-01
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"c687-4e11-bbe3-3e2fd41c991158778120","CheckoutRequestID":"ws_CO_15102024185617318717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5.00},{"Name":"MpesaReceiptNumber","Value":"SJF67SW9O6"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241015185629},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => c687-4e11-bbe3-3e2fd41c991158778120
+                    [CheckoutRequestID] => ws_CO_15102024185617318717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 5
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJF67SW9O6
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241015185629
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: SJF67SW9O6
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 441
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => a870cee2-3485-4478-802b-59e8ac302b96
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;-187808854;0;-2;643789619;1;9fdf;2h01;3hf4ce43aa;4h00;7h47237f99a53279fe
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"38d5-4ca6-b9c9-0240a9781f7a62893361","CheckoutRequestID":"ws_CO_15102024205332430717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5.00},{"Name":"MpesaReceiptNumber","Value":"SJF88GWUJI"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241015205352},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 38d5-4ca6-b9c9-0240a9781f7a62893361
+                    [CheckoutRequestID] => ws_CO_15102024205332430717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 5
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJF88GWUJI
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241015205352
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment recorded successfully: LoanID: ln000002, TransactionRef: SJF88GWUJI
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 210
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => b8fc1d96-f22e-4ba6-a39f-c527d10af9e4
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;696264454;0;-2;643789619;508;1052;2h01;3h29802706;4h00;6h37318a6f8453da39d083968e2071267d;7h90ec737de50e9c62
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;0;29802706;0;7fffffe;1;f;1fc;6be4;2h01;3h29802706;4h00;7h90ec737de50e9c62
+    [traceparent] => 00-37318a6f8453da39d083968e2071267d-90ec737de50e9c62-00
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"feab-4d34-8ffb-457d02cd9bfc99868113","CheckoutRequestID":"ws_CO_17102024163723648712752616","ResultCode":2001,"ResultDesc":"The initiator information is invalid."}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => feab-4d34-8ffb-457d02cd9bfc99868113
+                    [CheckoutRequestID] => ws_CO_17102024163723648712752616
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => 65c13475-10e7-4549-8140-0b9f8bb0634c
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;-865991902;0;-2;643789619;925;bc0c;2h01;3hcc620322;4h00;6hde814a52e6f6657aede61d8127eeb424;7h75a389cd96a8396b
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;0;cc620322;0;7fffffe;1;f;39d;70f4;2h01;3hcc620322;4h00;7h75a389cd96a8396b
+    [traceparent] => 00-de814a52e6f6657aede61d8127eeb424-75a389cd96a8396b-00
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"e1f1-482d-9538-d140c330be9b91173616","CheckoutRequestID":"ws_CO_17102024174208255712752616","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => e1f1-482d-9538-d140c330be9b91173616
+                    [CheckoutRequestID] => ws_CO_17102024174208255712752616
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-dynatrace] => FW4;-1055106265;0;1919929824;0;-2;643789619;1;d8ba;2h01;3h726fcde0;4h00;7h0c81ef7ec4132c8d
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 4eb25430-f3cb-4bf6-9904-b2bb9c1ffd51
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 91296a02298712e7f78610cf3436b80a
+    [x-b3-spanid] => f78610cf3436b80a
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"38d5-4ca6-b9c9-0240a9781f7a67662702","CheckoutRequestID":"ws_CO_17102024174342178712752616","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 38d5-4ca6-b9c9-0240a9781f7a67662702
+                    [CheckoutRequestID] => ws_CO_17102024174342178712752616
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 478ca378-f751-48bc-aab8-0e13d30c603a
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;-187808854;0;-2;643789619;580;71f0;2h01;3hf4ce43aa;4h00;6he09b8aa8cee3f6617324625c7fa99f92;7hd43d2c8e727eb5e6
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;0;f4ce43aa;0;7fffffe;1;f;244;f364;2h01;3hf4ce43aa;4h00;7hd43d2c8e727eb5e6
+    [traceparent] => 00-e09b8aa8cee3f6617324625c7fa99f92-d43d2c8e727eb5e6-00
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"4f9d-4622-a0da-1c77977dad0c72654422","CheckoutRequestID":"ws_CO_17102024174922048712752616","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 4f9d-4622-a0da-1c77977dad0c72654422
+                    [CheckoutRequestID] => ws_CO_17102024174922048712752616
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => 0caeb92a-ef03-4278-acf0-a9e3fca06316
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;53231252;0;-2;643789619;499;55ff;2h01;3h032c3e94;4h00;6hd6bc7ca7a89b8b20633eb66af4484ac8;7h3bc72c34107f2ca5
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;0;32c3e94;0;7fffffe;1;f;1f3;f4c3;2h01;3h032c3e94;4h00;7h3bc72c34107f2ca5
+    [traceparent] => 00-d6bc7ca7a89b8b20633eb66af4484ac8-3bc72c34107f2ca5-00
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dab3-4cb9-9110-99918efd35e372584263","CheckoutRequestID":"ws_CO_17102024174922035712752616","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dab3-4cb9-9110-99918efd35e372584263
+                    [CheckoutRequestID] => ws_CO_17102024174922035712752616
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 6ca2fb7f-37c9-4237-b9d4-f5ef66d1bdf0
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;0;433575104;0;-2;643789619;1;efe4;2h01;3h19d7d4c0;4h00;7h3d5d0477271a857b
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"60e4-4f14-997e-f04c8c4f586d64162253","CheckoutRequestID":"ws_CO_17102024175333717712752616","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 60e4-4f14-997e-f04c8c4f586d64162253
+                    [CheckoutRequestID] => ws_CO_17102024175333717712752616
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-dynatrace] => FW4;-1055106265;15;1597858368;275546223;-2147483648;643789619;303;ecf7;2h01;3h5f3d6240;4h106c806f;5h01;6h0e9a0ef27b42c06c3cec3b1ca11a6982;7ha835c4aa0f2982e8
+    [traceparent] => 00-0e9a0ef27b42c06c3cec3b1ca11a6982-a835c4aa0f2982e8-00
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;f;5f3d6240;106c806f;0;1;0;12f;ecf7;2h01;3h5f3d6240;4h106c806f;5h01;6h0e9a0ef27b42c06c3cec3b1ca11a6982;7ha835c4aa0f2982e8
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => 3cedb934-5a45-4eb9-9df3-48b8306b1dcb
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 7eb43840cd5f64638b04472e99ed0d07
+    [x-b3-spanid] => 8b04472e99ed0d07
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"6771-4f62-b538-7b914275850587571003","CheckoutRequestID":"ws_CO_17102024175403617717158091","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 6771-4f62-b538-7b914275850587571003
+                    [CheckoutRequestID] => ws_CO_17102024175403617717158091
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 442
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-dynatrace] => FW4;-1055106265;10;1597858368;275562554;-2147483648;643789619;327;5083;2h01;3h5f3d6240;4h106cc03a;5h01;6h77dc3451a9a3ba48e837c8bff5751447;7hd0fd45be8c6cb0c1
+    [traceparent] => 00-77dc3451a9a3ba48e837c8bff5751447-d0fd45be8c6cb0c1-00
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;a;5f3d6240;106cc03a;0;1;0;147;5083;2h01;3h5f3d6240;4h106cc03a;5h01;6h77dc3451a9a3ba48e837c8bff5751447;7hd0fd45be8c6cb0c1
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => f309d5e6-3686-4a02-a492-a1555eda1244
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 5b2096016ca29bee473e5e2ef262dfc6
+    [x-b3-spanid] => 473e5e2ef262dfc6
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dab3-4cb9-9110-99918efd35e372613688","CheckoutRequestID":"ws_CO_17102024180133813717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":14.00},{"Name":"MpesaReceiptNumber","Value":"SJH0FKP4JM"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241017180146},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dab3-4cb9-9110-99918efd35e372613688
+                    [CheckoutRequestID] => ws_CO_17102024180133813717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 14
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJH0FKP4JM
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241017180146
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: SJH0FKP4JM
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 442
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [X-Forwarded-For] => 10.184.20.60
+    [x-forwarded-proto] => https
+    [x-request-id] => 7cd00a77-0130-43bf-9fc0-04302fc4dbc5
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-dynatrace] => FW4;-1055106265;3;-1841848361;30836195;0;643789619;640;883f;2h04;3he35e3b86;4h03bbf4cb;5h01;6h7fe8d9d489a23429744a8c00b58c7c7f;7h3f9f424fa1d851d9
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;3;92379fd7;1d685e3;0;0;0;280;064c;2h04;3he35e3b86;4h03bbf4cb;5h01;7h3f9f424fa1d851d9
+    [traceparent] => 00-7fe8d9d489a23429744a8c00b58c7c7f-3f9f424fa1d851d9-01
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"dab3-4cb9-9110-99918efd35e372654152","CheckoutRequestID":"ws_CO_17102024181834777717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":14.00},{"Name":"MpesaReceiptNumber","Value":"SJH7FO07Z1"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241017181859},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => dab3-4cb9-9110-99918efd35e372654152
+                    [CheckoutRequestID] => ws_CO_17102024181834777717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 14
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJH7FO07Z1
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241017181859
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: SJH7FO07Z1
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-dynatrace] => FW4;-1055106265;12;-1215489595;185254;1;643789619;660;0998;2h03;3h9c29cf7c;4h10e138e8;5h01;6ha8abb927adf0ac73fd07b14e20d648f9;7h17357f238f0756db
+    [traceparent] => 00-a8abb927adf0ac73fd07b14e20d648f9-17357f238f0756db-01
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;c;b78d19c5;2d3a6;1;0;0;294;0998;2h03;3h9c29cf7c;4h10e138e8;5h01;6ha8abb927adf0ac73fd07b14e20d648f9;7h17357f238f0756db
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => 4ad77473-199c-4d7b-83f2-5847388f1927
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 4e11dfc1ced36844c32ae3bf7593e236
+    [x-b3-spanid] => c32ae3bf7593e236
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"e1f1-482d-9538-d140c330be9b92321974","CheckoutRequestID":"ws_CO_18102024052331219717158091","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => e1f1-482d-9538-d140c330be9b92321974
+                    [CheckoutRequestID] => ws_CO_18102024052331219717158091
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 441
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-dynatrace] => FW4;-1055106265;4;-842045706;185820;1;643789619;353;57f7;2h04;3h0bd39e51;4h1205752f;5h01;6h66f0c30add7bb77e8a20c310d670a35c;7h05f6f9b3080c12ff
+    [traceparent] => 00-66f0c30add7bb77e8a20c310d670a35c-05f6f9b3080c12ff-01
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;4;cdcf66f6;2d5dc;1;0;0;161;57f7;2h04;3h0bd39e51;4h1205752f;5h01;6h66f0c30add7bb77e8a20c310d670a35c;7h05f6f9b3080c12ff
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => df8bf249-1164-4686-a68f-e16a7cbe2ed3
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => 6a40a58b348335340edc40268b9a5cdb
+    [x-b3-spanid] => 0edc40268b9a5cdb
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"c687-4e11-bbe3-3e2fd41c991165233638","CheckoutRequestID":"ws_CO_18102024052449849717158091","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1.00},{"Name":"MpesaReceiptNumber","Value":"SJI5H3LYC3"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20241018052505},{"Name":"PhoneNumber","Value":254717158091}]}}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => c687-4e11-bbe3-3e2fd41c991165233638
+                    [CheckoutRequestID] => ws_CO_18102024052449849717158091
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SJI5H3LYC3
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => Balance
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20241018052505
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254717158091
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment recorded successfully: LoanID: ln000004, TransactionRef: SJI5H3LYC3
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 206
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-dynatrace] => FW4;-1055106265;5;-1828274350;174968;1;643789619;330;be2a;2h04;3h745e3cc2;4h28f3e030;5h01;6h8d797c4eb83804e8a58959fed04ae964;7ha2837f9d4c075abb
+    [traceparent] => 00-8d797c4eb83804e8a58959fed04ae964-a2837f9d4c075abb-01
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;5;9306bf52;2ab78;1;0;0;14a;be2a;2h04;3h745e3cc2;4h28f3e030;5h01;6h8d797c4eb83804e8a58959fed04ae964;7ha2837f9d4c075abb
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => de080017-d7a2-447f-a7b3-3eb67012f71c
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => fb45751c6a06a6adddd8dc74b3c1f96d
+    [x-b3-spanid] => ddd8dc74b3c1f96d
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"a5e9-4493-bf74-289c5402a31885285757","CheckoutRequestID":"ws_CO_18102024053743283717158091","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => a5e9-4493-bf74-289c5402a31885285757
+                    [CheckoutRequestID] => ws_CO_18102024053743283717158091
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Headers: Array
+(
+    [Host] => portal.omabracredit.co.ke
+    [Content-Type] => application/json;charset=UTF-8
+    [Accept-Encoding] => gzip
+    [Accept] => image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+    [Accept-Charset] => iso-8859-1,*,utf-8
+    [Content-Length] => 198
+    [User-Agent] => Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+    [x-dynatrace] => FW4;-1055106265;11;1306719372;194963;1;643789619;398;852c;2h03;3h22f31ca5;4h1183c96b;5h01;6h6dfefa6b6196b2f6a11ec90415bc9c5f;7he05d8e56c10f4eb3
+    [traceparent] => 00-6dfefa6b6196b2f6a11ec90415bc9c5f-e05d8e56c10f4eb3-01
+    [tracestate] => 265f7333-c11c5b27@dt=fw4;b;4de2f48c;2f993;1;0;0;18e;852c;2h03;3h22f31ca5;4h1183c96b;5h01;6h6dfefa6b6196b2f6a11ec90415bc9c5f;7he05d8e56c10f4eb3
+    [X-Forwarded-For] => 10.197.136.22
+    [x-forwarded-proto] => https
+    [x-request-id] => d6e52c65-966f-4798-a13d-b3cba95754fc
+    [x-envoy-expected-rq-timeout-ms] => 300000
+    [x-envoy-attempt-count] => 1
+    [x-b3-traceid] => dd2bf0e0f14252699c7a943af02259e2
+    [x-b3-spanid] => 9c7a943af02259e2
+    [x-b3-sampled] => 0
+)
+
+Raw Callback Data: {"Body":{"stkCallback":{"MerchantRequestID":"0a83-4731-ac2e-58dccc54ee5992670224","CheckoutRequestID":"ws_CO_18102024061314667717158091","ResultCode":1032,"ResultDesc":"Request cancelled by user"}}}
+Decoded JSON: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 0a83-4731-ac2e-58dccc54ee5992670224
+                    [CheckoutRequestID] => ws_CO_18102024061314667717158091
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+

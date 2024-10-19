@@ -1,0 +1,9 @@
+JSON Decode Error: Syntax error
+JSON Decode Error: Syntax error
+JSON Decode Error: Syntax error
+JSON Decode Error: Syntax error
+Database Insertion Error: Cannot add or update a child row: a foreign key constraint fails (`omabracr_loan-management-system`.`payments`, CONSTRAINT `payments_ibfk_1` FOREIGN KEY (`loan_id`) REFERENCES `loan_info` (`loan_id`))
+Duplicate transaction: LGR519G9G4
+Duplicate transaction: LGR519G9t7
+Duplicate transaction: LGR819G9t7
+Empty callback received
